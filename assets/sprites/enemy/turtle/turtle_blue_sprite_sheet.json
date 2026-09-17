@@ -1,0 +1,76 @@
+{ "frames": {
+   "turtle_blue_sprite_sheet 0.ase": {
+    "frame": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 100
+   },
+   "turtle_blue_sprite_sheet 1.ase": {
+    "frame": { "x": 0, "y": 64, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 100
+   },
+   "turtle_blue_sprite_sheet 2.ase": {
+    "frame": { "x": 0, "y": 128, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 100
+   },
+   "turtle_blue_sprite_sheet 3.ase": {
+    "frame": { "x": 0, "y": 192, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 100
+   },
+   "turtle_blue_sprite_sheet 4.ase": {
+    "frame": { "x": 0, "y": 256, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 100
+   },
+   "turtle_blue_sprite_sheet 5.ase": {
+    "frame": { "x": 0, "y": 320, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 200
+   },
+   "turtle_blue_sprite_sheet 6.ase": {
+    "frame": { "x": 0, "y": 384, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 200
+   }
+ },
+ "meta": {
+  "app": "https://github.com/LibreSprite/LibreSprite/",
+  "version": "1.1-dev",
+  "image": "D:\\_ZPS_Projects\\ZPS_UIT\\2026\\turtle\\turtle_blue_sprite_sheet.png",
+  "format": "RGBA8888",
+  "size": { "w": 192, "h": 448 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "def", "from": 0, "to": 4, "direction": "forward" },
+   { "name": "Loop", "from": 5, "to": 6, "direction": "forward" },
+   { "name": "walk", "from": 5, "to": 6, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" },
+   { "name": "Layer 1", "opacity": 255, "blendMode": "normal" }
+  ]
+ }
+}

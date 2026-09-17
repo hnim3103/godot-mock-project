@@ -1,0 +1,80 @@
+{ "frames": {
+   "war_lord_walk 0.ase": {
+    "frame": { "x": 0, "y": 0, "w": 384, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 384, "h": 128 },
+    "sourceSize": { "w": 384, "h": 128 },
+    "duration": 100
+   },
+   "war_lord_walk 1.ase": {
+    "frame": { "x": 0, "y": 128, "w": 384, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 384, "h": 128 },
+    "sourceSize": { "w": 384, "h": 128 },
+    "duration": 100
+   },
+   "war_lord_walk 2.ase": {
+    "frame": { "x": 0, "y": 256, "w": 384, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 384, "h": 128 },
+    "sourceSize": { "w": 384, "h": 128 },
+    "duration": 100
+   },
+   "war_lord_walk 3.ase": {
+    "frame": { "x": 0, "y": 384, "w": 384, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 384, "h": 128 },
+    "sourceSize": { "w": 384, "h": 128 },
+    "duration": 100
+   },
+   "war_lord_walk 4.ase": {
+    "frame": { "x": 0, "y": 512, "w": 384, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 384, "h": 128 },
+    "sourceSize": { "w": 384, "h": 128 },
+    "duration": 100
+   },
+   "war_lord_walk 5.ase": {
+    "frame": { "x": 0, "y": 640, "w": 384, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 384, "h": 128 },
+    "sourceSize": { "w": 384, "h": 128 },
+    "duration": 100
+   },
+   "war_lord_walk 6.ase": {
+    "frame": { "x": 0, "y": 768, "w": 384, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 384, "h": 128 },
+    "sourceSize": { "w": 384, "h": 128 },
+    "duration": 100
+   },
+   "war_lord_walk 7.ase": {
+    "frame": { "x": 0, "y": 896, "w": 384, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 384, "h": 128 },
+    "sourceSize": { "w": 384, "h": 128 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "https://github.com/LibreSprite/LibreSprite/",
+  "version": "1.1-dev",
+  "image": "D:\\_ZPS_Projects\\ZPS_UIT\\2026\\war_lord\\war_lord_walk_sheet.png",
+  "format": "RGBA8888",
+  "size": { "w": 384, "h": 1024 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Sprite Sheet", "opacity": 255, "blendMode": "normal" }
+  ]
+ }
+}

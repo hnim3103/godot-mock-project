@@ -1,0 +1,124 @@
+{ "frames": {
+   "native_sprite_sheet 0.png": {
+    "frame": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 100
+   },
+   "native_sprite_sheet 1.png": {
+    "frame": { "x": 0, "y": 64, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 100
+   },
+   "native_sprite_sheet 2.png": {
+    "frame": { "x": 0, "y": 128, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 100
+   },
+   "native_sprite_sheet 3.png": {
+    "frame": { "x": 0, "y": 192, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 100
+   },
+   "native_sprite_sheet 4.png": {
+    "frame": { "x": 0, "y": 256, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 100
+   },
+   "native_sprite_sheet 5.png": {
+    "frame": { "x": 0, "y": 320, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 100
+   },
+   "native_sprite_sheet 6.png": {
+    "frame": { "x": 0, "y": 384, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 100
+   },
+   "native_sprite_sheet 7.png": {
+    "frame": { "x": 0, "y": 448, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 100
+   },
+   "native_sprite_sheet 8.png": {
+    "frame": { "x": 0, "y": 512, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 100
+   },
+   "native_sprite_sheet 9.png": {
+    "frame": { "x": 0, "y": 576, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 200
+   },
+   "native_sprite_sheet 10.png": {
+    "frame": { "x": 0, "y": 640, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 300
+   },
+   "native_sprite_sheet 11.png": {
+    "frame": { "x": 0, "y": 704, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 200
+   },
+   "native_sprite_sheet 12.png": {
+    "frame": { "x": 0, "y": 768, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 300
+   }
+ },
+ "meta": {
+  "app": "https://github.com/LibreSprite/LibreSprite/",
+  "version": "1.1-dev",
+  "image": "D:\\_ZPS_Projects\\ZPS_UIT\\2026\\native\\native_sprite_sheet.png",
+  "format": "RGBA8888",
+  "size": { "w": 192, "h": 832 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "walk", "from": 0, "to": 3, "direction": "forward" },
+   { "name": "hit", "from": 4, "to": 6, "direction": "forward" },
+   { "name": "atk", "from": 7, "to": 10, "direction": "forward" },
+   { "name": "suprise", "from": 11, "to": 12, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Sprite Sheet", "opacity": 255, "blendMode": "normal" }
+  ]
+ }
+}

@@ -1,0 +1,91 @@
+{ "frames": {
+   "Foxy_push 0.png": {
+    "frame": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 150
+   },
+   "Foxy_push 1.png": {
+    "frame": { "x": 0, "y": 64, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 150
+   },
+   "Foxy_push 2.png": {
+    "frame": { "x": 0, "y": 128, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 150
+   },
+   "Foxy_push 3.png": {
+    "frame": { "x": 0, "y": 192, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 150
+   },
+   "Foxy_push 4.png": {
+    "frame": { "x": 0, "y": 256, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 150
+   },
+   "Foxy_push 5.png": {
+    "frame": { "x": 0, "y": 320, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 150
+   },
+   "Foxy_push 6.png": {
+    "frame": { "x": 0, "y": 384, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 150
+   },
+   "Foxy_push 7.png": {
+    "frame": { "x": 0, "y": 448, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 150
+   },
+   "Foxy_push 8.png": {
+    "frame": { "x": 0, "y": 512, "w": 192, "h": 64 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 64 },
+    "sourceSize": { "w": 192, "h": 64 },
+    "duration": 150
+   }
+ },
+ "meta": {
+  "app": "https://github.com/LibreSprite/LibreSprite/",
+  "version": "1.1-dev",
+  "image": "D:\\_ZPS_Projects\\ZPS_UIT\\2026\\Foxy\\foxy_actions_sprite_sheet.png",
+  "format": "RGBA8888",
+  "size": { "w": 192, "h": 576 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "pushing", "from": 0, "to": 4, "direction": "forward" },
+   { "name": "carring", "from": 5, "to": 8, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "foxy", "opacity": 255, "blendMode": "normal" },
+   { "name": "hat", "opacity": 255, "blendMode": "normal" }
+  ]
+ }
+}
