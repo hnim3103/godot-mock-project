@@ -1,0 +1,4702 @@
+[gd_resource type="Resource" script_class="TileCatalog" format=3 uid="uid://b0j27425gyh7c"]
+
+[ext_resource type="MeshLibrary" uid="uid://7fqs52c7i6ef" path="res://assets/grid_map/forest_procedural_library.tres" id="1_qriw8"]
+[ext_resource type="Script" uid="uid://cu7akrvl7x188" path="res://scripts/procedural/tile_rule.gd" id="2_6ahe2"]
+[ext_resource type="Script" uid="uid://dhrrao5bng61x" path="res://scripts/procedural/tile_placement.gd" id="3_ia7qw"]
+[ext_resource type="Script" uid="uid://cgvvgqqs1obb6" path="res://scripts/procedural/tile_catalog.gd" id="4_0sxd4"]
+
+[sub_resource type="Resource" id="Resource_hwqyo"]
+script = ExtResource("3_ia7qw")
+item_name = &"floor_ground_0"
+
+[sub_resource type="Resource" id="Resource_pmd08"]
+script = ExtResource("2_6ahe2")
+rule_id = &"floor_ground_0"
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+weight = 6.0
+allowed_rotations = PackedInt32Array(0)
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_hwqyo")])
+
+[sub_resource type="Resource" id="Resource_rm004"]
+script = ExtResource("3_ia7qw")
+item_name = &"floor_ground_1"
+
+[sub_resource type="Resource" id="Resource_wlnxr"]
+script = ExtResource("2_6ahe2")
+rule_id = &"floor_ground_1"
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_rm004")])
+
+[sub_resource type="Resource" id="Resource_bms4g"]
+script = ExtResource("3_ia7qw")
+item_name = &"floor_ground_2"
+
+[sub_resource type="Resource" id="Resource_w7ver"]
+script = ExtResource("2_6ahe2")
+rule_id = &"floor_ground_2"
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_bms4g")])
+
+[sub_resource type="Resource" id="Resource_2i0sp"]
+script = ExtResource("3_ia7qw")
+item_name = &"floor_ground_3"
+
+[sub_resource type="Resource" id="Resource_fk6qk"]
+script = ExtResource("2_6ahe2")
+rule_id = &"floor_ground_3"
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_2i0sp")])
+
+[sub_resource type="Resource" id="Resource_60h57"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_00_00"
+
+[sub_resource type="Resource" id="Resource_587yb"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_00_00"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 0
+diagonal_mask = 0
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_60h57")])
+
+[sub_resource type="Resource" id="Resource_4fjvy"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_00_01"
+
+[sub_resource type="Resource" id="Resource_k0xuf"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_00_01"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 0
+diagonal_mask = 1
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_4fjvy")])
+
+[sub_resource type="Resource" id="Resource_5dibm"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_00_02"
+
+[sub_resource type="Resource" id="Resource_ikvqa"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_00_02"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 0
+diagonal_mask = 2
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_5dibm")])
+
+[sub_resource type="Resource" id="Resource_b8e5p"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_00_03"
+
+[sub_resource type="Resource" id="Resource_m6kxn"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_00_03"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 0
+diagonal_mask = 3
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_b8e5p")])
+
+[sub_resource type="Resource" id="Resource_gbrq5"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_00_04"
+
+[sub_resource type="Resource" id="Resource_ksubl"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_00_04"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 0
+diagonal_mask = 4
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_gbrq5")])
+
+[sub_resource type="Resource" id="Resource_13ilf"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_00_05"
+
+[sub_resource type="Resource" id="Resource_cxetf"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_00_05"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 0
+diagonal_mask = 5
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_13ilf")])
+
+[sub_resource type="Resource" id="Resource_6um4m"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_00_06"
+
+[sub_resource type="Resource" id="Resource_577r5"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_00_06"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 0
+diagonal_mask = 6
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_6um4m")])
+
+[sub_resource type="Resource" id="Resource_0y018"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_00_07"
+
+[sub_resource type="Resource" id="Resource_mqik0"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_00_07"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 0
+diagonal_mask = 7
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_0y018")])
+
+[sub_resource type="Resource" id="Resource_rgm38"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_00_08"
+
+[sub_resource type="Resource" id="Resource_vf2vy"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_00_08"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 0
+diagonal_mask = 8
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_rgm38")])
+
+[sub_resource type="Resource" id="Resource_ebpag"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_00_09"
+
+[sub_resource type="Resource" id="Resource_xymem"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_00_09"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 0
+diagonal_mask = 9
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_ebpag")])
+
+[sub_resource type="Resource" id="Resource_atfrl"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_00_10"
+
+[sub_resource type="Resource" id="Resource_jr3qs"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_00_10"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 0
+diagonal_mask = 10
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_atfrl")])
+
+[sub_resource type="Resource" id="Resource_bbwni"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_00_11"
+
+[sub_resource type="Resource" id="Resource_aclhx"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_00_11"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 0
+diagonal_mask = 11
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_bbwni")])
+
+[sub_resource type="Resource" id="Resource_uc1cc"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_00_12"
+
+[sub_resource type="Resource" id="Resource_hm52v"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_00_12"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 0
+diagonal_mask = 12
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_uc1cc")])
+
+[sub_resource type="Resource" id="Resource_rdkxc"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_00_13"
+
+[sub_resource type="Resource" id="Resource_nixci"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_00_13"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 0
+diagonal_mask = 13
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_rdkxc")])
+
+[sub_resource type="Resource" id="Resource_6me04"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_00_14"
+
+[sub_resource type="Resource" id="Resource_csu8x"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_00_14"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 0
+diagonal_mask = 14
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_6me04")])
+
+[sub_resource type="Resource" id="Resource_83sxb"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_00_15"
+
+[sub_resource type="Resource" id="Resource_yqkw1"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_00_15"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 0
+diagonal_mask = 15
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_83sxb")])
+
+[sub_resource type="Resource" id="Resource_tt2lv"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_01_00"
+
+[sub_resource type="Resource" id="Resource_jx5eq"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_01_00"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 1
+diagonal_mask = 0
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_tt2lv")])
+
+[sub_resource type="Resource" id="Resource_up756"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_01_01"
+
+[sub_resource type="Resource" id="Resource_gposs"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_01_01"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 1
+diagonal_mask = 1
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_up756")])
+
+[sub_resource type="Resource" id="Resource_7u6q5"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_01_02"
+
+[sub_resource type="Resource" id="Resource_oskdj"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_01_02"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 1
+diagonal_mask = 2
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_7u6q5")])
+
+[sub_resource type="Resource" id="Resource_wqwl3"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_01_03"
+
+[sub_resource type="Resource" id="Resource_gsxrd"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_01_03"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 1
+diagonal_mask = 3
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_wqwl3")])
+
+[sub_resource type="Resource" id="Resource_ddv2l"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_01_04"
+
+[sub_resource type="Resource" id="Resource_cvj4h"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_01_04"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 1
+diagonal_mask = 4
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_ddv2l")])
+
+[sub_resource type="Resource" id="Resource_ty226"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_01_05"
+
+[sub_resource type="Resource" id="Resource_uqds1"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_01_05"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 1
+diagonal_mask = 5
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_ty226")])
+
+[sub_resource type="Resource" id="Resource_pg0x5"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_01_06"
+
+[sub_resource type="Resource" id="Resource_4bf0l"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_01_06"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 1
+diagonal_mask = 6
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_pg0x5")])
+
+[sub_resource type="Resource" id="Resource_plw85"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_01_07"
+
+[sub_resource type="Resource" id="Resource_iy57x"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_01_07"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 1
+diagonal_mask = 7
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_plw85")])
+
+[sub_resource type="Resource" id="Resource_3wuma"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_01_08"
+
+[sub_resource type="Resource" id="Resource_hxo0u"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_01_08"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 1
+diagonal_mask = 8
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_3wuma")])
+
+[sub_resource type="Resource" id="Resource_fg8jc"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_01_09"
+
+[sub_resource type="Resource" id="Resource_vd6bk"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_01_09"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 1
+diagonal_mask = 9
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_fg8jc")])
+
+[sub_resource type="Resource" id="Resource_4e4kc"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_01_10"
+
+[sub_resource type="Resource" id="Resource_evnx2"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_01_10"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 1
+diagonal_mask = 10
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_4e4kc")])
+
+[sub_resource type="Resource" id="Resource_tdim0"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_01_11"
+
+[sub_resource type="Resource" id="Resource_0dbcr"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_01_11"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 1
+diagonal_mask = 11
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_tdim0")])
+
+[sub_resource type="Resource" id="Resource_c428v"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_01_12"
+
+[sub_resource type="Resource" id="Resource_lluvf"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_01_12"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 1
+diagonal_mask = 12
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_c428v")])
+
+[sub_resource type="Resource" id="Resource_mdqvm"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_01_13"
+
+[sub_resource type="Resource" id="Resource_poc31"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_01_13"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 1
+diagonal_mask = 13
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_mdqvm")])
+
+[sub_resource type="Resource" id="Resource_vgmxj"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_01_14"
+
+[sub_resource type="Resource" id="Resource_okued"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_01_14"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 1
+diagonal_mask = 14
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_vgmxj")])
+
+[sub_resource type="Resource" id="Resource_pi6b6"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_01_15"
+
+[sub_resource type="Resource" id="Resource_rsq8u"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_01_15"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 1
+diagonal_mask = 15
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_pi6b6")])
+
+[sub_resource type="Resource" id="Resource_m6jcc"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_02_00"
+
+[sub_resource type="Resource" id="Resource_nbtuu"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_02_00"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 2
+diagonal_mask = 0
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_m6jcc")])
+
+[sub_resource type="Resource" id="Resource_wh7st"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_02_01"
+
+[sub_resource type="Resource" id="Resource_427i7"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_02_01"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 2
+diagonal_mask = 1
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_wh7st")])
+
+[sub_resource type="Resource" id="Resource_m358k"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_02_02"
+
+[sub_resource type="Resource" id="Resource_bsde7"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_02_02"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 2
+diagonal_mask = 2
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_m358k")])
+
+[sub_resource type="Resource" id="Resource_0dsqa"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_02_03"
+
+[sub_resource type="Resource" id="Resource_irlq2"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_02_03"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 2
+diagonal_mask = 3
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_0dsqa")])
+
+[sub_resource type="Resource" id="Resource_4ealo"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_02_04"
+
+[sub_resource type="Resource" id="Resource_q0cvt"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_02_04"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 2
+diagonal_mask = 4
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_4ealo")])
+
+[sub_resource type="Resource" id="Resource_lkv8j"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_02_05"
+
+[sub_resource type="Resource" id="Resource_vq38j"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_02_05"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 2
+diagonal_mask = 5
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_lkv8j")])
+
+[sub_resource type="Resource" id="Resource_qwcqc"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_02_06"
+
+[sub_resource type="Resource" id="Resource_wvy2t"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_02_06"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 2
+diagonal_mask = 6
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_qwcqc")])
+
+[sub_resource type="Resource" id="Resource_1ig2h"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_02_07"
+
+[sub_resource type="Resource" id="Resource_7cikw"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_02_07"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 2
+diagonal_mask = 7
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_1ig2h")])
+
+[sub_resource type="Resource" id="Resource_lcwjg"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_02_08"
+
+[sub_resource type="Resource" id="Resource_wryci"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_02_08"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 2
+diagonal_mask = 8
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_lcwjg")])
+
+[sub_resource type="Resource" id="Resource_jd153"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_02_09"
+
+[sub_resource type="Resource" id="Resource_3w6ro"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_02_09"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 2
+diagonal_mask = 9
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_jd153")])
+
+[sub_resource type="Resource" id="Resource_k2ghb"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_02_10"
+
+[sub_resource type="Resource" id="Resource_b1qs5"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_02_10"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 2
+diagonal_mask = 10
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_k2ghb")])
+
+[sub_resource type="Resource" id="Resource_bk1al"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_02_11"
+
+[sub_resource type="Resource" id="Resource_nly57"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_02_11"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 2
+diagonal_mask = 11
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_bk1al")])
+
+[sub_resource type="Resource" id="Resource_nbqqh"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_02_12"
+
+[sub_resource type="Resource" id="Resource_fkeh7"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_02_12"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 2
+diagonal_mask = 12
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_nbqqh")])
+
+[sub_resource type="Resource" id="Resource_4yw7u"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_02_13"
+
+[sub_resource type="Resource" id="Resource_f6lps"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_02_13"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 2
+diagonal_mask = 13
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_4yw7u")])
+
+[sub_resource type="Resource" id="Resource_gs0u1"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_02_14"
+
+[sub_resource type="Resource" id="Resource_16cqb"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_02_14"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 2
+diagonal_mask = 14
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_gs0u1")])
+
+[sub_resource type="Resource" id="Resource_sng44"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_02_15"
+
+[sub_resource type="Resource" id="Resource_1tab0"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_02_15"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 2
+diagonal_mask = 15
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_sng44")])
+
+[sub_resource type="Resource" id="Resource_jnfne"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_03_00"
+
+[sub_resource type="Resource" id="Resource_ucfyi"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_03_00"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 3
+diagonal_mask = 0
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_jnfne")])
+
+[sub_resource type="Resource" id="Resource_tm65x"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_03_01"
+
+[sub_resource type="Resource" id="Resource_1y8iq"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_03_01"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 3
+diagonal_mask = 1
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_tm65x")])
+
+[sub_resource type="Resource" id="Resource_gybxj"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_03_02"
+
+[sub_resource type="Resource" id="Resource_s3aa7"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_03_02"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 3
+diagonal_mask = 2
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_gybxj")])
+
+[sub_resource type="Resource" id="Resource_st0jh"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_03_03"
+
+[sub_resource type="Resource" id="Resource_kmdfw"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_03_03"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 3
+diagonal_mask = 3
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_st0jh")])
+
+[sub_resource type="Resource" id="Resource_473yf"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_03_04"
+
+[sub_resource type="Resource" id="Resource_kfdeo"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_03_04"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 3
+diagonal_mask = 4
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_473yf")])
+
+[sub_resource type="Resource" id="Resource_byokk"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_03_05"
+
+[sub_resource type="Resource" id="Resource_epphe"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_03_05"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 3
+diagonal_mask = 5
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_byokk")])
+
+[sub_resource type="Resource" id="Resource_5bnhu"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_03_06"
+
+[sub_resource type="Resource" id="Resource_jtx65"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_03_06"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 3
+diagonal_mask = 6
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_5bnhu")])
+
+[sub_resource type="Resource" id="Resource_18xge"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_03_07"
+
+[sub_resource type="Resource" id="Resource_frp8t"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_03_07"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 3
+diagonal_mask = 7
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_18xge")])
+
+[sub_resource type="Resource" id="Resource_rijg3"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_03_08"
+
+[sub_resource type="Resource" id="Resource_34013"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_03_08"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 3
+diagonal_mask = 8
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_rijg3")])
+
+[sub_resource type="Resource" id="Resource_3xm0b"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_03_09"
+
+[sub_resource type="Resource" id="Resource_x6wos"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_03_09"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 3
+diagonal_mask = 9
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_3xm0b")])
+
+[sub_resource type="Resource" id="Resource_8xeq7"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_03_10"
+
+[sub_resource type="Resource" id="Resource_0seku"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_03_10"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 3
+diagonal_mask = 10
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_8xeq7")])
+
+[sub_resource type="Resource" id="Resource_d5v04"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_03_11"
+
+[sub_resource type="Resource" id="Resource_4v3ua"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_03_11"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 3
+diagonal_mask = 11
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_d5v04")])
+
+[sub_resource type="Resource" id="Resource_7g362"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_03_12"
+
+[sub_resource type="Resource" id="Resource_q1cja"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_03_12"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 3
+diagonal_mask = 12
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_7g362")])
+
+[sub_resource type="Resource" id="Resource_jsj2p"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_03_13"
+
+[sub_resource type="Resource" id="Resource_rc0ex"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_03_13"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 3
+diagonal_mask = 13
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_jsj2p")])
+
+[sub_resource type="Resource" id="Resource_a150w"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_03_14"
+
+[sub_resource type="Resource" id="Resource_1hpqe"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_03_14"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 3
+diagonal_mask = 14
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_a150w")])
+
+[sub_resource type="Resource" id="Resource_tucad"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_03_15"
+
+[sub_resource type="Resource" id="Resource_xwkrd"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_03_15"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 3
+diagonal_mask = 15
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_tucad")])
+
+[sub_resource type="Resource" id="Resource_hybyw"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_04_00"
+
+[sub_resource type="Resource" id="Resource_nmgtg"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_04_00"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 4
+diagonal_mask = 0
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_hybyw")])
+
+[sub_resource type="Resource" id="Resource_7wha6"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_04_01"
+
+[sub_resource type="Resource" id="Resource_0kk1n"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_04_01"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 4
+diagonal_mask = 1
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_7wha6")])
+
+[sub_resource type="Resource" id="Resource_k5uos"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_04_02"
+
+[sub_resource type="Resource" id="Resource_xcocf"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_04_02"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 4
+diagonal_mask = 2
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_k5uos")])
+
+[sub_resource type="Resource" id="Resource_ttntm"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_04_03"
+
+[sub_resource type="Resource" id="Resource_xcotm"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_04_03"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 4
+diagonal_mask = 3
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_ttntm")])
+
+[sub_resource type="Resource" id="Resource_v4oi8"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_04_04"
+
+[sub_resource type="Resource" id="Resource_f7e1j"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_04_04"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 4
+diagonal_mask = 4
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_v4oi8")])
+
+[sub_resource type="Resource" id="Resource_1xn3u"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_04_05"
+
+[sub_resource type="Resource" id="Resource_wx3su"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_04_05"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 4
+diagonal_mask = 5
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_1xn3u")])
+
+[sub_resource type="Resource" id="Resource_noiud"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_04_06"
+
+[sub_resource type="Resource" id="Resource_ff5ce"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_04_06"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 4
+diagonal_mask = 6
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_noiud")])
+
+[sub_resource type="Resource" id="Resource_cat1x"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_04_07"
+
+[sub_resource type="Resource" id="Resource_0ry3e"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_04_07"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 4
+diagonal_mask = 7
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_cat1x")])
+
+[sub_resource type="Resource" id="Resource_i7rh8"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_04_08"
+
+[sub_resource type="Resource" id="Resource_556jj"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_04_08"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 4
+diagonal_mask = 8
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_i7rh8")])
+
+[sub_resource type="Resource" id="Resource_x218g"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_04_09"
+
+[sub_resource type="Resource" id="Resource_bp56l"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_04_09"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 4
+diagonal_mask = 9
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_x218g")])
+
+[sub_resource type="Resource" id="Resource_fytwh"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_04_10"
+
+[sub_resource type="Resource" id="Resource_xlceb"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_04_10"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 4
+diagonal_mask = 10
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_fytwh")])
+
+[sub_resource type="Resource" id="Resource_0a8d5"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_04_11"
+
+[sub_resource type="Resource" id="Resource_uaypx"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_04_11"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 4
+diagonal_mask = 11
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_0a8d5")])
+
+[sub_resource type="Resource" id="Resource_kfuyq"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_04_12"
+
+[sub_resource type="Resource" id="Resource_nb6vl"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_04_12"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 4
+diagonal_mask = 12
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_kfuyq")])
+
+[sub_resource type="Resource" id="Resource_of0me"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_04_13"
+
+[sub_resource type="Resource" id="Resource_i6ity"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_04_13"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 4
+diagonal_mask = 13
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_of0me")])
+
+[sub_resource type="Resource" id="Resource_btajw"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_04_14"
+
+[sub_resource type="Resource" id="Resource_dhu1w"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_04_14"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 4
+diagonal_mask = 14
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_btajw")])
+
+[sub_resource type="Resource" id="Resource_cphjs"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_04_15"
+
+[sub_resource type="Resource" id="Resource_fseql"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_04_15"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 4
+diagonal_mask = 15
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_cphjs")])
+
+[sub_resource type="Resource" id="Resource_pmga8"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_05_00"
+
+[sub_resource type="Resource" id="Resource_tgfa6"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_05_00"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 5
+diagonal_mask = 0
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_pmga8")])
+
+[sub_resource type="Resource" id="Resource_xhcig"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_05_01"
+
+[sub_resource type="Resource" id="Resource_83tw2"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_05_01"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 5
+diagonal_mask = 1
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_xhcig")])
+
+[sub_resource type="Resource" id="Resource_5cjki"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_05_02"
+
+[sub_resource type="Resource" id="Resource_6nug8"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_05_02"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 5
+diagonal_mask = 2
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_5cjki")])
+
+[sub_resource type="Resource" id="Resource_mxx0x"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_05_03"
+
+[sub_resource type="Resource" id="Resource_kuis5"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_05_03"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 5
+diagonal_mask = 3
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_mxx0x")])
+
+[sub_resource type="Resource" id="Resource_c4r5m"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_05_04"
+
+[sub_resource type="Resource" id="Resource_rulbh"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_05_04"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 5
+diagonal_mask = 4
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_c4r5m")])
+
+[sub_resource type="Resource" id="Resource_rs8lc"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_05_05"
+
+[sub_resource type="Resource" id="Resource_ijwao"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_05_05"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 5
+diagonal_mask = 5
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_rs8lc")])
+
+[sub_resource type="Resource" id="Resource_81d7s"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_05_06"
+
+[sub_resource type="Resource" id="Resource_isw4k"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_05_06"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 5
+diagonal_mask = 6
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_81d7s")])
+
+[sub_resource type="Resource" id="Resource_rgkc0"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_05_07"
+
+[sub_resource type="Resource" id="Resource_t7k7w"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_05_07"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 5
+diagonal_mask = 7
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_rgkc0")])
+
+[sub_resource type="Resource" id="Resource_dnq7o"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_05_08"
+
+[sub_resource type="Resource" id="Resource_kgbwa"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_05_08"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 5
+diagonal_mask = 8
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_dnq7o")])
+
+[sub_resource type="Resource" id="Resource_tdswr"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_05_09"
+
+[sub_resource type="Resource" id="Resource_7erko"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_05_09"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 5
+diagonal_mask = 9
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_tdswr")])
+
+[sub_resource type="Resource" id="Resource_yw5vx"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_05_10"
+
+[sub_resource type="Resource" id="Resource_x1ghv"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_05_10"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 5
+diagonal_mask = 10
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_yw5vx")])
+
+[sub_resource type="Resource" id="Resource_v51o3"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_05_11"
+
+[sub_resource type="Resource" id="Resource_bj7fr"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_05_11"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 5
+diagonal_mask = 11
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_v51o3")])
+
+[sub_resource type="Resource" id="Resource_285vl"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_05_12"
+
+[sub_resource type="Resource" id="Resource_5wxe5"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_05_12"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 5
+diagonal_mask = 12
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_285vl")])
+
+[sub_resource type="Resource" id="Resource_tak4t"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_05_13"
+
+[sub_resource type="Resource" id="Resource_madd8"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_05_13"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 5
+diagonal_mask = 13
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_tak4t")])
+
+[sub_resource type="Resource" id="Resource_mcbn0"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_05_14"
+
+[sub_resource type="Resource" id="Resource_cfjm0"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_05_14"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 5
+diagonal_mask = 14
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_mcbn0")])
+
+[sub_resource type="Resource" id="Resource_2dclh"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_05_15"
+
+[sub_resource type="Resource" id="Resource_4dqo0"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_05_15"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 5
+diagonal_mask = 15
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_2dclh")])
+
+[sub_resource type="Resource" id="Resource_tlaid"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_06_00"
+
+[sub_resource type="Resource" id="Resource_0ui3l"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_06_00"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 6
+diagonal_mask = 0
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_tlaid")])
+
+[sub_resource type="Resource" id="Resource_1q2p7"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_06_01"
+
+[sub_resource type="Resource" id="Resource_2quxt"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_06_01"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 6
+diagonal_mask = 1
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_1q2p7")])
+
+[sub_resource type="Resource" id="Resource_fxytl"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_06_02"
+
+[sub_resource type="Resource" id="Resource_odujs"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_06_02"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 6
+diagonal_mask = 2
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_fxytl")])
+
+[sub_resource type="Resource" id="Resource_5n1ie"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_06_03"
+
+[sub_resource type="Resource" id="Resource_48hyx"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_06_03"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 6
+diagonal_mask = 3
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_5n1ie")])
+
+[sub_resource type="Resource" id="Resource_wa8mb"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_06_04"
+
+[sub_resource type="Resource" id="Resource_5o3r6"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_06_04"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 6
+diagonal_mask = 4
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_wa8mb")])
+
+[sub_resource type="Resource" id="Resource_0c7xb"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_06_05"
+
+[sub_resource type="Resource" id="Resource_xqyer"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_06_05"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 6
+diagonal_mask = 5
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_0c7xb")])
+
+[sub_resource type="Resource" id="Resource_jhpec"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_06_06"
+
+[sub_resource type="Resource" id="Resource_b3rpj"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_06_06"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 6
+diagonal_mask = 6
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_jhpec")])
+
+[sub_resource type="Resource" id="Resource_3rxiv"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_06_07"
+
+[sub_resource type="Resource" id="Resource_ouhjx"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_06_07"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 6
+diagonal_mask = 7
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_3rxiv")])
+
+[sub_resource type="Resource" id="Resource_tf14k"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_06_08"
+
+[sub_resource type="Resource" id="Resource_6qkdf"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_06_08"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 6
+diagonal_mask = 8
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_tf14k")])
+
+[sub_resource type="Resource" id="Resource_tn7ur"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_06_09"
+
+[sub_resource type="Resource" id="Resource_spd6u"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_06_09"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 6
+diagonal_mask = 9
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_tn7ur")])
+
+[sub_resource type="Resource" id="Resource_sveru"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_06_10"
+
+[sub_resource type="Resource" id="Resource_qew40"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_06_10"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 6
+diagonal_mask = 10
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_sveru")])
+
+[sub_resource type="Resource" id="Resource_n236s"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_06_11"
+
+[sub_resource type="Resource" id="Resource_xyxut"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_06_11"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 6
+diagonal_mask = 11
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_n236s")])
+
+[sub_resource type="Resource" id="Resource_qchri"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_06_12"
+
+[sub_resource type="Resource" id="Resource_gy6a3"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_06_12"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 6
+diagonal_mask = 12
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_qchri")])
+
+[sub_resource type="Resource" id="Resource_yw42h"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_06_13"
+
+[sub_resource type="Resource" id="Resource_im0fl"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_06_13"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 6
+diagonal_mask = 13
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_yw42h")])
+
+[sub_resource type="Resource" id="Resource_ojesr"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_06_14"
+
+[sub_resource type="Resource" id="Resource_r1iv1"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_06_14"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 6
+diagonal_mask = 14
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_ojesr")])
+
+[sub_resource type="Resource" id="Resource_jjhjf"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_06_15"
+
+[sub_resource type="Resource" id="Resource_e7e30"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_06_15"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 6
+diagonal_mask = 15
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_jjhjf")])
+
+[sub_resource type="Resource" id="Resource_74wsx"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_07_00"
+
+[sub_resource type="Resource" id="Resource_a6yfc"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_07_00"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 7
+diagonal_mask = 0
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_74wsx")])
+
+[sub_resource type="Resource" id="Resource_ae2ac"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_07_01"
+
+[sub_resource type="Resource" id="Resource_314e1"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_07_01"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 7
+diagonal_mask = 1
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_ae2ac")])
+
+[sub_resource type="Resource" id="Resource_g5qs7"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_07_02"
+
+[sub_resource type="Resource" id="Resource_alhsf"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_07_02"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 7
+diagonal_mask = 2
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_g5qs7")])
+
+[sub_resource type="Resource" id="Resource_0b7s7"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_07_03"
+
+[sub_resource type="Resource" id="Resource_1bxm2"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_07_03"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 7
+diagonal_mask = 3
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_0b7s7")])
+
+[sub_resource type="Resource" id="Resource_afx1v"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_07_04"
+
+[sub_resource type="Resource" id="Resource_1qtno"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_07_04"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 7
+diagonal_mask = 4
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_afx1v")])
+
+[sub_resource type="Resource" id="Resource_pgybn"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_07_05"
+
+[sub_resource type="Resource" id="Resource_8obh4"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_07_05"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 7
+diagonal_mask = 5
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_pgybn")])
+
+[sub_resource type="Resource" id="Resource_ivf5r"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_07_06"
+
+[sub_resource type="Resource" id="Resource_ef0dj"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_07_06"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 7
+diagonal_mask = 6
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_ivf5r")])
+
+[sub_resource type="Resource" id="Resource_ecc6o"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_07_07"
+
+[sub_resource type="Resource" id="Resource_yjlxo"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_07_07"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 7
+diagonal_mask = 7
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_ecc6o")])
+
+[sub_resource type="Resource" id="Resource_xfm0n"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_07_08"
+
+[sub_resource type="Resource" id="Resource_6alct"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_07_08"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 7
+diagonal_mask = 8
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_xfm0n")])
+
+[sub_resource type="Resource" id="Resource_f5j63"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_07_09"
+
+[sub_resource type="Resource" id="Resource_pqyok"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_07_09"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 7
+diagonal_mask = 9
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_f5j63")])
+
+[sub_resource type="Resource" id="Resource_h08o3"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_07_10"
+
+[sub_resource type="Resource" id="Resource_xkjld"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_07_10"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 7
+diagonal_mask = 10
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_h08o3")])
+
+[sub_resource type="Resource" id="Resource_vvsdu"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_07_11"
+
+[sub_resource type="Resource" id="Resource_5p3xl"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_07_11"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 7
+diagonal_mask = 11
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_vvsdu")])
+
+[sub_resource type="Resource" id="Resource_p4xw3"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_07_12"
+
+[sub_resource type="Resource" id="Resource_4t5x5"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_07_12"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 7
+diagonal_mask = 12
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_p4xw3")])
+
+[sub_resource type="Resource" id="Resource_wn260"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_07_13"
+
+[sub_resource type="Resource" id="Resource_vhout"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_07_13"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 7
+diagonal_mask = 13
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_wn260")])
+
+[sub_resource type="Resource" id="Resource_6evay"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_07_14"
+
+[sub_resource type="Resource" id="Resource_3wpal"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_07_14"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 7
+diagonal_mask = 14
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_6evay")])
+
+[sub_resource type="Resource" id="Resource_2axmv"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_07_15"
+
+[sub_resource type="Resource" id="Resource_xca2x"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_07_15"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 7
+diagonal_mask = 15
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_2axmv")])
+
+[sub_resource type="Resource" id="Resource_wuojr"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_08_00"
+
+[sub_resource type="Resource" id="Resource_86qom"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_08_00"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 8
+diagonal_mask = 0
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_wuojr")])
+
+[sub_resource type="Resource" id="Resource_0rtho"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_08_01"
+
+[sub_resource type="Resource" id="Resource_ij8gp"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_08_01"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 8
+diagonal_mask = 1
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_0rtho")])
+
+[sub_resource type="Resource" id="Resource_pmiql"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_08_02"
+
+[sub_resource type="Resource" id="Resource_fvbap"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_08_02"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 8
+diagonal_mask = 2
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_pmiql")])
+
+[sub_resource type="Resource" id="Resource_tbh6p"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_08_03"
+
+[sub_resource type="Resource" id="Resource_std4n"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_08_03"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 8
+diagonal_mask = 3
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_tbh6p")])
+
+[sub_resource type="Resource" id="Resource_huaa1"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_08_04"
+
+[sub_resource type="Resource" id="Resource_0lce1"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_08_04"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 8
+diagonal_mask = 4
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_huaa1")])
+
+[sub_resource type="Resource" id="Resource_gqee3"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_08_05"
+
+[sub_resource type="Resource" id="Resource_wb78h"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_08_05"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 8
+diagonal_mask = 5
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_gqee3")])
+
+[sub_resource type="Resource" id="Resource_tbj27"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_08_06"
+
+[sub_resource type="Resource" id="Resource_djy2x"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_08_06"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 8
+diagonal_mask = 6
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_tbj27")])
+
+[sub_resource type="Resource" id="Resource_e2m63"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_08_07"
+
+[sub_resource type="Resource" id="Resource_35bwa"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_08_07"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 8
+diagonal_mask = 7
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_e2m63")])
+
+[sub_resource type="Resource" id="Resource_s0d7x"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_08_08"
+
+[sub_resource type="Resource" id="Resource_yuiol"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_08_08"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 8
+diagonal_mask = 8
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_s0d7x")])
+
+[sub_resource type="Resource" id="Resource_1cwkk"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_08_09"
+
+[sub_resource type="Resource" id="Resource_87d4r"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_08_09"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 8
+diagonal_mask = 9
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_1cwkk")])
+
+[sub_resource type="Resource" id="Resource_rwwko"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_08_10"
+
+[sub_resource type="Resource" id="Resource_p8lrd"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_08_10"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 8
+diagonal_mask = 10
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_rwwko")])
+
+[sub_resource type="Resource" id="Resource_p2wim"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_08_11"
+
+[sub_resource type="Resource" id="Resource_26uqe"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_08_11"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 8
+diagonal_mask = 11
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_p2wim")])
+
+[sub_resource type="Resource" id="Resource_axad8"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_08_12"
+
+[sub_resource type="Resource" id="Resource_aupkw"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_08_12"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 8
+diagonal_mask = 12
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_axad8")])
+
+[sub_resource type="Resource" id="Resource_6vt76"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_08_13"
+
+[sub_resource type="Resource" id="Resource_jifjx"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_08_13"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 8
+diagonal_mask = 13
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_6vt76")])
+
+[sub_resource type="Resource" id="Resource_aw2ak"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_08_14"
+
+[sub_resource type="Resource" id="Resource_oxw22"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_08_14"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 8
+diagonal_mask = 14
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_aw2ak")])
+
+[sub_resource type="Resource" id="Resource_8nojk"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_08_15"
+
+[sub_resource type="Resource" id="Resource_63ln8"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_08_15"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 8
+diagonal_mask = 15
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_8nojk")])
+
+[sub_resource type="Resource" id="Resource_uqcwm"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_09_00"
+
+[sub_resource type="Resource" id="Resource_6wsix"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_09_00"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 9
+diagonal_mask = 0
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_uqcwm")])
+
+[sub_resource type="Resource" id="Resource_lnc8x"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_09_01"
+
+[sub_resource type="Resource" id="Resource_bavrr"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_09_01"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 9
+diagonal_mask = 1
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_lnc8x")])
+
+[sub_resource type="Resource" id="Resource_mu6xb"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_09_02"
+
+[sub_resource type="Resource" id="Resource_famba"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_09_02"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 9
+diagonal_mask = 2
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_mu6xb")])
+
+[sub_resource type="Resource" id="Resource_14itm"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_09_03"
+
+[sub_resource type="Resource" id="Resource_eik88"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_09_03"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 9
+diagonal_mask = 3
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_14itm")])
+
+[sub_resource type="Resource" id="Resource_s8t0j"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_09_04"
+
+[sub_resource type="Resource" id="Resource_dkeua"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_09_04"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 9
+diagonal_mask = 4
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_s8t0j")])
+
+[sub_resource type="Resource" id="Resource_s8amu"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_09_05"
+
+[sub_resource type="Resource" id="Resource_hq28r"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_09_05"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 9
+diagonal_mask = 5
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_s8amu")])
+
+[sub_resource type="Resource" id="Resource_kahw2"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_09_06"
+
+[sub_resource type="Resource" id="Resource_x13lt"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_09_06"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 9
+diagonal_mask = 6
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_kahw2")])
+
+[sub_resource type="Resource" id="Resource_ogxvp"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_09_07"
+
+[sub_resource type="Resource" id="Resource_lm4m1"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_09_07"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 9
+diagonal_mask = 7
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_ogxvp")])
+
+[sub_resource type="Resource" id="Resource_41ep4"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_09_08"
+
+[sub_resource type="Resource" id="Resource_njvmx"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_09_08"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 9
+diagonal_mask = 8
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_41ep4")])
+
+[sub_resource type="Resource" id="Resource_f1uwn"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_09_09"
+
+[sub_resource type="Resource" id="Resource_e6yjr"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_09_09"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 9
+diagonal_mask = 9
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_f1uwn")])
+
+[sub_resource type="Resource" id="Resource_dngwu"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_09_10"
+
+[sub_resource type="Resource" id="Resource_akeqk"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_09_10"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 9
+diagonal_mask = 10
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_dngwu")])
+
+[sub_resource type="Resource" id="Resource_4j0te"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_09_11"
+
+[sub_resource type="Resource" id="Resource_878pl"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_09_11"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 9
+diagonal_mask = 11
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_4j0te")])
+
+[sub_resource type="Resource" id="Resource_dnpg3"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_09_12"
+
+[sub_resource type="Resource" id="Resource_s3onm"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_09_12"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 9
+diagonal_mask = 12
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_dnpg3")])
+
+[sub_resource type="Resource" id="Resource_6jnrb"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_09_13"
+
+[sub_resource type="Resource" id="Resource_vwsw2"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_09_13"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 9
+diagonal_mask = 13
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_6jnrb")])
+
+[sub_resource type="Resource" id="Resource_xqe21"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_09_14"
+
+[sub_resource type="Resource" id="Resource_ev6qp"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_09_14"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 9
+diagonal_mask = 14
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_xqe21")])
+
+[sub_resource type="Resource" id="Resource_e8jcb"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_09_15"
+
+[sub_resource type="Resource" id="Resource_q5gpx"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_09_15"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 9
+diagonal_mask = 15
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_e8jcb")])
+
+[sub_resource type="Resource" id="Resource_tkee8"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_10_00"
+
+[sub_resource type="Resource" id="Resource_lqrjn"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_10_00"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 10
+diagonal_mask = 0
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_tkee8")])
+
+[sub_resource type="Resource" id="Resource_0y17s"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_10_01"
+
+[sub_resource type="Resource" id="Resource_y7lrw"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_10_01"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 10
+diagonal_mask = 1
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_0y17s")])
+
+[sub_resource type="Resource" id="Resource_nxhk1"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_10_02"
+
+[sub_resource type="Resource" id="Resource_cww3e"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_10_02"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 10
+diagonal_mask = 2
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_nxhk1")])
+
+[sub_resource type="Resource" id="Resource_lkg0k"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_10_03"
+
+[sub_resource type="Resource" id="Resource_oha2c"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_10_03"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 10
+diagonal_mask = 3
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_lkg0k")])
+
+[sub_resource type="Resource" id="Resource_blhgk"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_10_04"
+
+[sub_resource type="Resource" id="Resource_bgvkq"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_10_04"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 10
+diagonal_mask = 4
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_blhgk")])
+
+[sub_resource type="Resource" id="Resource_cfujs"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_10_05"
+
+[sub_resource type="Resource" id="Resource_xs5t8"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_10_05"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 10
+diagonal_mask = 5
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_cfujs")])
+
+[sub_resource type="Resource" id="Resource_p3p1i"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_10_06"
+
+[sub_resource type="Resource" id="Resource_gibe8"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_10_06"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 10
+diagonal_mask = 6
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_p3p1i")])
+
+[sub_resource type="Resource" id="Resource_ge5up"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_10_07"
+
+[sub_resource type="Resource" id="Resource_alssc"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_10_07"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 10
+diagonal_mask = 7
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_ge5up")])
+
+[sub_resource type="Resource" id="Resource_ju7jq"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_10_08"
+
+[sub_resource type="Resource" id="Resource_txgi1"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_10_08"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 10
+diagonal_mask = 8
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_ju7jq")])
+
+[sub_resource type="Resource" id="Resource_6nmkk"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_10_09"
+
+[sub_resource type="Resource" id="Resource_sf4mb"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_10_09"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 10
+diagonal_mask = 9
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_6nmkk")])
+
+[sub_resource type="Resource" id="Resource_lk300"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_10_10"
+
+[sub_resource type="Resource" id="Resource_6s6cq"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_10_10"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 10
+diagonal_mask = 10
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_lk300")])
+
+[sub_resource type="Resource" id="Resource_3m430"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_10_11"
+
+[sub_resource type="Resource" id="Resource_pxqv2"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_10_11"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 10
+diagonal_mask = 11
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_3m430")])
+
+[sub_resource type="Resource" id="Resource_tn1xk"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_10_12"
+
+[sub_resource type="Resource" id="Resource_uhvk7"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_10_12"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 10
+diagonal_mask = 12
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_tn1xk")])
+
+[sub_resource type="Resource" id="Resource_b8vrx"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_10_13"
+
+[sub_resource type="Resource" id="Resource_fa2bq"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_10_13"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 10
+diagonal_mask = 13
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_b8vrx")])
+
+[sub_resource type="Resource" id="Resource_qg1gm"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_10_14"
+
+[sub_resource type="Resource" id="Resource_v8att"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_10_14"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 10
+diagonal_mask = 14
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_qg1gm")])
+
+[sub_resource type="Resource" id="Resource_817tc"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_10_15"
+
+[sub_resource type="Resource" id="Resource_f1j13"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_10_15"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 10
+diagonal_mask = 15
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_817tc")])
+
+[sub_resource type="Resource" id="Resource_jpwf0"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_11_00"
+
+[sub_resource type="Resource" id="Resource_0nfo1"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_11_00"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 11
+diagonal_mask = 0
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_jpwf0")])
+
+[sub_resource type="Resource" id="Resource_ciwfx"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_11_01"
+
+[sub_resource type="Resource" id="Resource_pd7ra"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_11_01"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 11
+diagonal_mask = 1
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_ciwfx")])
+
+[sub_resource type="Resource" id="Resource_qmqyq"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_11_02"
+
+[sub_resource type="Resource" id="Resource_wfc0a"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_11_02"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 11
+diagonal_mask = 2
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_qmqyq")])
+
+[sub_resource type="Resource" id="Resource_rjupp"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_11_03"
+
+[sub_resource type="Resource" id="Resource_igb26"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_11_03"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 11
+diagonal_mask = 3
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_rjupp")])
+
+[sub_resource type="Resource" id="Resource_js3v2"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_11_04"
+
+[sub_resource type="Resource" id="Resource_nbeni"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_11_04"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 11
+diagonal_mask = 4
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_js3v2")])
+
+[sub_resource type="Resource" id="Resource_2pjwn"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_11_05"
+
+[sub_resource type="Resource" id="Resource_d77f4"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_11_05"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 11
+diagonal_mask = 5
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_2pjwn")])
+
+[sub_resource type="Resource" id="Resource_pdhmt"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_11_06"
+
+[sub_resource type="Resource" id="Resource_ys6j5"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_11_06"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 11
+diagonal_mask = 6
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_pdhmt")])
+
+[sub_resource type="Resource" id="Resource_i7h0i"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_11_07"
+
+[sub_resource type="Resource" id="Resource_mb6l5"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_11_07"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 11
+diagonal_mask = 7
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_i7h0i")])
+
+[sub_resource type="Resource" id="Resource_pnopk"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_11_08"
+
+[sub_resource type="Resource" id="Resource_evcae"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_11_08"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 11
+diagonal_mask = 8
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_pnopk")])
+
+[sub_resource type="Resource" id="Resource_v8xs7"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_11_09"
+
+[sub_resource type="Resource" id="Resource_u5e5f"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_11_09"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 11
+diagonal_mask = 9
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_v8xs7")])
+
+[sub_resource type="Resource" id="Resource_kabdx"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_11_10"
+
+[sub_resource type="Resource" id="Resource_jhd1v"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_11_10"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 11
+diagonal_mask = 10
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_kabdx")])
+
+[sub_resource type="Resource" id="Resource_kxbdg"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_11_11"
+
+[sub_resource type="Resource" id="Resource_4t4i4"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_11_11"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 11
+diagonal_mask = 11
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_kxbdg")])
+
+[sub_resource type="Resource" id="Resource_52vwb"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_11_12"
+
+[sub_resource type="Resource" id="Resource_nf470"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_11_12"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 11
+diagonal_mask = 12
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_52vwb")])
+
+[sub_resource type="Resource" id="Resource_xnx18"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_11_13"
+
+[sub_resource type="Resource" id="Resource_x0idx"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_11_13"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 11
+diagonal_mask = 13
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_xnx18")])
+
+[sub_resource type="Resource" id="Resource_7t7yh"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_11_14"
+
+[sub_resource type="Resource" id="Resource_ebjh8"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_11_14"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 11
+diagonal_mask = 14
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_7t7yh")])
+
+[sub_resource type="Resource" id="Resource_owp1k"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_11_15"
+
+[sub_resource type="Resource" id="Resource_lw7r5"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_11_15"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 11
+diagonal_mask = 15
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_owp1k")])
+
+[sub_resource type="Resource" id="Resource_ydt3p"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_12_00"
+
+[sub_resource type="Resource" id="Resource_860qe"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_12_00"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 12
+diagonal_mask = 0
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_ydt3p")])
+
+[sub_resource type="Resource" id="Resource_hhs0q"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_12_01"
+
+[sub_resource type="Resource" id="Resource_c1cfb"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_12_01"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 12
+diagonal_mask = 1
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_hhs0q")])
+
+[sub_resource type="Resource" id="Resource_04wcc"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_12_02"
+
+[sub_resource type="Resource" id="Resource_lql2r"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_12_02"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 12
+diagonal_mask = 2
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_04wcc")])
+
+[sub_resource type="Resource" id="Resource_56mq5"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_12_03"
+
+[sub_resource type="Resource" id="Resource_gtj4a"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_12_03"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 12
+diagonal_mask = 3
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_56mq5")])
+
+[sub_resource type="Resource" id="Resource_wv1ox"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_12_04"
+
+[sub_resource type="Resource" id="Resource_1r2i6"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_12_04"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 12
+diagonal_mask = 4
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_wv1ox")])
+
+[sub_resource type="Resource" id="Resource_rq7vh"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_12_05"
+
+[sub_resource type="Resource" id="Resource_2rgae"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_12_05"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 12
+diagonal_mask = 5
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_rq7vh")])
+
+[sub_resource type="Resource" id="Resource_he67h"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_12_06"
+
+[sub_resource type="Resource" id="Resource_qk5sc"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_12_06"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 12
+diagonal_mask = 6
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_he67h")])
+
+[sub_resource type="Resource" id="Resource_76v30"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_12_07"
+
+[sub_resource type="Resource" id="Resource_1fii5"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_12_07"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 12
+diagonal_mask = 7
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_76v30")])
+
+[sub_resource type="Resource" id="Resource_ukno5"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_12_08"
+
+[sub_resource type="Resource" id="Resource_71syk"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_12_08"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 12
+diagonal_mask = 8
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_ukno5")])
+
+[sub_resource type="Resource" id="Resource_nsstj"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_12_09"
+
+[sub_resource type="Resource" id="Resource_vj5ey"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_12_09"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 12
+diagonal_mask = 9
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_nsstj")])
+
+[sub_resource type="Resource" id="Resource_edcw2"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_12_10"
+
+[sub_resource type="Resource" id="Resource_oxvri"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_12_10"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 12
+diagonal_mask = 10
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_edcw2")])
+
+[sub_resource type="Resource" id="Resource_82oew"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_12_11"
+
+[sub_resource type="Resource" id="Resource_227d6"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_12_11"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 12
+diagonal_mask = 11
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_82oew")])
+
+[sub_resource type="Resource" id="Resource_pmm3a"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_12_12"
+
+[sub_resource type="Resource" id="Resource_8vd1t"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_12_12"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 12
+diagonal_mask = 12
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_pmm3a")])
+
+[sub_resource type="Resource" id="Resource_f3wn3"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_12_13"
+
+[sub_resource type="Resource" id="Resource_s2xv5"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_12_13"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 12
+diagonal_mask = 13
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_f3wn3")])
+
+[sub_resource type="Resource" id="Resource_l2le8"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_12_14"
+
+[sub_resource type="Resource" id="Resource_3oo7t"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_12_14"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 12
+diagonal_mask = 14
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_l2le8")])
+
+[sub_resource type="Resource" id="Resource_hnj52"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_12_15"
+
+[sub_resource type="Resource" id="Resource_cj1ap"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_12_15"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 12
+diagonal_mask = 15
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_hnj52")])
+
+[sub_resource type="Resource" id="Resource_ucyq6"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_13_00"
+
+[sub_resource type="Resource" id="Resource_72nw3"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_13_00"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 13
+diagonal_mask = 0
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_ucyq6")])
+
+[sub_resource type="Resource" id="Resource_3pi0l"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_13_01"
+
+[sub_resource type="Resource" id="Resource_cmhte"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_13_01"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 13
+diagonal_mask = 1
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_3pi0l")])
+
+[sub_resource type="Resource" id="Resource_0pe4i"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_13_02"
+
+[sub_resource type="Resource" id="Resource_18yqg"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_13_02"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 13
+diagonal_mask = 2
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_0pe4i")])
+
+[sub_resource type="Resource" id="Resource_3k4ey"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_13_03"
+
+[sub_resource type="Resource" id="Resource_g6mpy"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_13_03"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 13
+diagonal_mask = 3
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_3k4ey")])
+
+[sub_resource type="Resource" id="Resource_iwxel"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_13_04"
+
+[sub_resource type="Resource" id="Resource_lomxy"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_13_04"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 13
+diagonal_mask = 4
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_iwxel")])
+
+[sub_resource type="Resource" id="Resource_38bk7"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_13_05"
+
+[sub_resource type="Resource" id="Resource_vo5xt"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_13_05"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 13
+diagonal_mask = 5
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_38bk7")])
+
+[sub_resource type="Resource" id="Resource_wsao0"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_13_06"
+
+[sub_resource type="Resource" id="Resource_anlfo"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_13_06"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 13
+diagonal_mask = 6
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_wsao0")])
+
+[sub_resource type="Resource" id="Resource_ctfb6"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_13_07"
+
+[sub_resource type="Resource" id="Resource_6oka3"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_13_07"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 13
+diagonal_mask = 7
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_ctfb6")])
+
+[sub_resource type="Resource" id="Resource_xn5dc"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_13_08"
+
+[sub_resource type="Resource" id="Resource_b6y5g"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_13_08"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 13
+diagonal_mask = 8
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_xn5dc")])
+
+[sub_resource type="Resource" id="Resource_nvyi1"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_13_09"
+
+[sub_resource type="Resource" id="Resource_2kyaw"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_13_09"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 13
+diagonal_mask = 9
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_nvyi1")])
+
+[sub_resource type="Resource" id="Resource_112lg"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_13_10"
+
+[sub_resource type="Resource" id="Resource_f0ywp"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_13_10"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 13
+diagonal_mask = 10
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_112lg")])
+
+[sub_resource type="Resource" id="Resource_7sidb"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_13_11"
+
+[sub_resource type="Resource" id="Resource_gym6h"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_13_11"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 13
+diagonal_mask = 11
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_7sidb")])
+
+[sub_resource type="Resource" id="Resource_3xr18"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_13_12"
+
+[sub_resource type="Resource" id="Resource_pyymm"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_13_12"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 13
+diagonal_mask = 12
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_3xr18")])
+
+[sub_resource type="Resource" id="Resource_vkhuu"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_13_13"
+
+[sub_resource type="Resource" id="Resource_16h0k"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_13_13"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 13
+diagonal_mask = 13
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_vkhuu")])
+
+[sub_resource type="Resource" id="Resource_xdhh7"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_13_14"
+
+[sub_resource type="Resource" id="Resource_ojoji"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_13_14"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 13
+diagonal_mask = 14
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_xdhh7")])
+
+[sub_resource type="Resource" id="Resource_liyce"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_13_15"
+
+[sub_resource type="Resource" id="Resource_xva8x"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_13_15"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 13
+diagonal_mask = 15
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_liyce")])
+
+[sub_resource type="Resource" id="Resource_fm78h"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_14_00"
+
+[sub_resource type="Resource" id="Resource_4c257"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_14_00"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 14
+diagonal_mask = 0
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_fm78h")])
+
+[sub_resource type="Resource" id="Resource_53dpo"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_14_01"
+
+[sub_resource type="Resource" id="Resource_ahqwe"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_14_01"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 14
+diagonal_mask = 1
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_53dpo")])
+
+[sub_resource type="Resource" id="Resource_kwh7j"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_14_02"
+
+[sub_resource type="Resource" id="Resource_5d55w"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_14_02"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 14
+diagonal_mask = 2
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_kwh7j")])
+
+[sub_resource type="Resource" id="Resource_inhr3"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_14_03"
+
+[sub_resource type="Resource" id="Resource_wya04"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_14_03"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 14
+diagonal_mask = 3
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_inhr3")])
+
+[sub_resource type="Resource" id="Resource_srfby"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_14_04"
+
+[sub_resource type="Resource" id="Resource_t8uv4"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_14_04"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 14
+diagonal_mask = 4
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_srfby")])
+
+[sub_resource type="Resource" id="Resource_5whkl"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_14_05"
+
+[sub_resource type="Resource" id="Resource_n77hj"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_14_05"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 14
+diagonal_mask = 5
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_5whkl")])
+
+[sub_resource type="Resource" id="Resource_6bc65"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_14_06"
+
+[sub_resource type="Resource" id="Resource_c8yu3"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_14_06"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 14
+diagonal_mask = 6
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_6bc65")])
+
+[sub_resource type="Resource" id="Resource_aaruh"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_14_07"
+
+[sub_resource type="Resource" id="Resource_1g1lt"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_14_07"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 14
+diagonal_mask = 7
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_aaruh")])
+
+[sub_resource type="Resource" id="Resource_oubuh"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_14_08"
+
+[sub_resource type="Resource" id="Resource_cadqi"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_14_08"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 14
+diagonal_mask = 8
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_oubuh")])
+
+[sub_resource type="Resource" id="Resource_7i0rs"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_14_09"
+
+[sub_resource type="Resource" id="Resource_krvdh"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_14_09"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 14
+diagonal_mask = 9
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_7i0rs")])
+
+[sub_resource type="Resource" id="Resource_0fy8o"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_14_10"
+
+[sub_resource type="Resource" id="Resource_yaxx1"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_14_10"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 14
+diagonal_mask = 10
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_0fy8o")])
+
+[sub_resource type="Resource" id="Resource_fdgu1"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_14_11"
+
+[sub_resource type="Resource" id="Resource_5w40o"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_14_11"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 14
+diagonal_mask = 11
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_fdgu1")])
+
+[sub_resource type="Resource" id="Resource_167bt"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_14_12"
+
+[sub_resource type="Resource" id="Resource_nuk4o"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_14_12"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 14
+diagonal_mask = 12
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_167bt")])
+
+[sub_resource type="Resource" id="Resource_pphuo"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_14_13"
+
+[sub_resource type="Resource" id="Resource_qcg1e"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_14_13"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 14
+diagonal_mask = 13
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_pphuo")])
+
+[sub_resource type="Resource" id="Resource_0vo2c"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_14_14"
+
+[sub_resource type="Resource" id="Resource_k5dom"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_14_14"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 14
+diagonal_mask = 14
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_0vo2c")])
+
+[sub_resource type="Resource" id="Resource_3437b"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_14_15"
+
+[sub_resource type="Resource" id="Resource_k1303"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_14_15"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 14
+diagonal_mask = 15
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_3437b")])
+
+[sub_resource type="Resource" id="Resource_tm865"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_15_00"
+
+[sub_resource type="Resource" id="Resource_o37gq"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_15_00"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 15
+diagonal_mask = 0
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_tm865")])
+
+[sub_resource type="Resource" id="Resource_vo5fn"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_15_01"
+
+[sub_resource type="Resource" id="Resource_myieb"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_15_01"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 15
+diagonal_mask = 1
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_vo5fn")])
+
+[sub_resource type="Resource" id="Resource_y4uqi"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_15_02"
+
+[sub_resource type="Resource" id="Resource_77uh7"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_15_02"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 15
+diagonal_mask = 2
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_y4uqi")])
+
+[sub_resource type="Resource" id="Resource_5ihek"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_15_03"
+
+[sub_resource type="Resource" id="Resource_1wtcb"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_15_03"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 15
+diagonal_mask = 3
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_5ihek")])
+
+[sub_resource type="Resource" id="Resource_vmy1m"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_15_04"
+
+[sub_resource type="Resource" id="Resource_2avxp"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_15_04"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 15
+diagonal_mask = 4
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_vmy1m")])
+
+[sub_resource type="Resource" id="Resource_lrb1i"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_15_05"
+
+[sub_resource type="Resource" id="Resource_g2cw1"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_15_05"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 15
+diagonal_mask = 5
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_lrb1i")])
+
+[sub_resource type="Resource" id="Resource_ik407"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_15_06"
+
+[sub_resource type="Resource" id="Resource_8y6cg"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_15_06"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 15
+diagonal_mask = 6
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_ik407")])
+
+[sub_resource type="Resource" id="Resource_5gb82"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_15_07"
+
+[sub_resource type="Resource" id="Resource_loawc"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_15_07"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 15
+diagonal_mask = 7
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_5gb82")])
+
+[sub_resource type="Resource" id="Resource_0sjwp"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_15_08"
+
+[sub_resource type="Resource" id="Resource_44c5l"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_15_08"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 15
+diagonal_mask = 8
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_0sjwp")])
+
+[sub_resource type="Resource" id="Resource_wi5uf"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_15_09"
+
+[sub_resource type="Resource" id="Resource_q2cde"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_15_09"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 15
+diagonal_mask = 9
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_wi5uf")])
+
+[sub_resource type="Resource" id="Resource_vi1et"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_15_10"
+
+[sub_resource type="Resource" id="Resource_kgtxc"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_15_10"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 15
+diagonal_mask = 10
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_vi1et")])
+
+[sub_resource type="Resource" id="Resource_rbksd"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_15_11"
+
+[sub_resource type="Resource" id="Resource_0mkjw"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_15_11"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 15
+diagonal_mask = 11
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_rbksd")])
+
+[sub_resource type="Resource" id="Resource_6iksb"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_15_12"
+
+[sub_resource type="Resource" id="Resource_njcji"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_15_12"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 15
+diagonal_mask = 12
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_6iksb")])
+
+[sub_resource type="Resource" id="Resource_2jnbh"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_15_13"
+
+[sub_resource type="Resource" id="Resource_76syj"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_15_13"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 15
+diagonal_mask = 13
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_2jnbh")])
+
+[sub_resource type="Resource" id="Resource_rrl3q"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_15_14"
+
+[sub_resource type="Resource" id="Resource_f4vms"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_15_14"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 15
+diagonal_mask = 14
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_rrl3q")])
+
+[sub_resource type="Resource" id="Resource_udv3n"]
+script = ExtResource("3_ia7qw")
+item_name = &"path_15_15"
+
+[sub_resource type="Resource" id="Resource_huldc"]
+script = ExtResource("2_6ahe2")
+rule_id = &"path_15_15"
+group = 1
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 15
+diagonal_mask = 15
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_udv3n")])
+
+[sub_resource type="Resource" id="Resource_pe5jy"]
+script = ExtResource("3_ia7qw")
+layer = "structures"
+item_name = &"cliff_01"
+
+[sub_resource type="Resource" id="Resource_ael1u"]
+script = ExtResource("2_6ahe2")
+rule_id = &"cliff_01"
+group = 2
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 1
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_pe5jy")])
+
+[sub_resource type="Resource" id="Resource_fkcpu"]
+script = ExtResource("3_ia7qw")
+layer = "structures"
+item_name = &"cliff_02"
+
+[sub_resource type="Resource" id="Resource_cuxrd"]
+script = ExtResource("2_6ahe2")
+rule_id = &"cliff_02"
+group = 2
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 2
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_fkcpu")])
+
+[sub_resource type="Resource" id="Resource_ak35b"]
+script = ExtResource("3_ia7qw")
+layer = "structures"
+item_name = &"cliff_03"
+
+[sub_resource type="Resource" id="Resource_8fi8q"]
+script = ExtResource("2_6ahe2")
+rule_id = &"cliff_03"
+group = 2
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 3
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_ak35b")])
+
+[sub_resource type="Resource" id="Resource_76lop"]
+script = ExtResource("3_ia7qw")
+layer = "structures"
+item_name = &"cliff_04"
+
+[sub_resource type="Resource" id="Resource_vwayw"]
+script = ExtResource("2_6ahe2")
+rule_id = &"cliff_04"
+group = 2
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 4
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_76lop")])
+
+[sub_resource type="Resource" id="Resource_uoiwy"]
+script = ExtResource("3_ia7qw")
+layer = "structures"
+item_name = &"cliff_05"
+
+[sub_resource type="Resource" id="Resource_tccx5"]
+script = ExtResource("2_6ahe2")
+rule_id = &"cliff_05"
+group = 2
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 5
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_uoiwy")])
+
+[sub_resource type="Resource" id="Resource_o1sg6"]
+script = ExtResource("3_ia7qw")
+layer = "structures"
+item_name = &"cliff_06"
+
+[sub_resource type="Resource" id="Resource_1efje"]
+script = ExtResource("2_6ahe2")
+rule_id = &"cliff_06"
+group = 2
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 6
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_o1sg6")])
+
+[sub_resource type="Resource" id="Resource_adbcm"]
+script = ExtResource("3_ia7qw")
+layer = "structures"
+item_name = &"cliff_07"
+
+[sub_resource type="Resource" id="Resource_fyfqf"]
+script = ExtResource("2_6ahe2")
+rule_id = &"cliff_07"
+group = 2
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 7
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_adbcm")])
+
+[sub_resource type="Resource" id="Resource_s4ig0"]
+script = ExtResource("3_ia7qw")
+layer = "structures"
+item_name = &"cliff_08"
+
+[sub_resource type="Resource" id="Resource_lmwsf"]
+script = ExtResource("2_6ahe2")
+rule_id = &"cliff_08"
+group = 2
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 8
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_s4ig0")])
+
+[sub_resource type="Resource" id="Resource_2eb8j"]
+script = ExtResource("3_ia7qw")
+layer = "structures"
+item_name = &"cliff_09"
+
+[sub_resource type="Resource" id="Resource_7pgo8"]
+script = ExtResource("2_6ahe2")
+rule_id = &"cliff_09"
+group = 2
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 9
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_2eb8j")])
+
+[sub_resource type="Resource" id="Resource_5623j"]
+script = ExtResource("3_ia7qw")
+layer = "structures"
+item_name = &"cliff_10"
+
+[sub_resource type="Resource" id="Resource_i8nnw"]
+script = ExtResource("2_6ahe2")
+rule_id = &"cliff_10"
+group = 2
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 10
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_5623j")])
+
+[sub_resource type="Resource" id="Resource_l3p08"]
+script = ExtResource("3_ia7qw")
+layer = "structures"
+item_name = &"cliff_11"
+
+[sub_resource type="Resource" id="Resource_dktnh"]
+script = ExtResource("2_6ahe2")
+rule_id = &"cliff_11"
+group = 2
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 11
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_l3p08")])
+
+[sub_resource type="Resource" id="Resource_w3x8o"]
+script = ExtResource("3_ia7qw")
+layer = "structures"
+item_name = &"cliff_12"
+
+[sub_resource type="Resource" id="Resource_37lho"]
+script = ExtResource("2_6ahe2")
+rule_id = &"cliff_12"
+group = 2
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 12
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_w3x8o")])
+
+[sub_resource type="Resource" id="Resource_5hwf8"]
+script = ExtResource("3_ia7qw")
+layer = "structures"
+item_name = &"cliff_13"
+
+[sub_resource type="Resource" id="Resource_mwfsi"]
+script = ExtResource("2_6ahe2")
+rule_id = &"cliff_13"
+group = 2
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 13
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_5hwf8")])
+
+[sub_resource type="Resource" id="Resource_r274x"]
+script = ExtResource("3_ia7qw")
+layer = "structures"
+item_name = &"cliff_14"
+
+[sub_resource type="Resource" id="Resource_qgbm3"]
+script = ExtResource("2_6ahe2")
+rule_id = &"cliff_14"
+group = 2
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 14
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_r274x")])
+
+[sub_resource type="Resource" id="Resource_gj8v3"]
+script = ExtResource("3_ia7qw")
+layer = "structures"
+item_name = &"cliff_15"
+
+[sub_resource type="Resource" id="Resource_avd7p"]
+script = ExtResource("2_6ahe2")
+rule_id = &"cliff_15"
+group = 2
+enabled = true
+verified = true
+notes = "Template generated from the source mesh/UVs; see tile_preview.tscn."
+allowed_rotations = PackedInt32Array(0)
+neighbor_mask = 15
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_gj8v3")])
+
+[sub_resource type="Resource" id="Resource_4bg5p"]
+script = ExtResource("3_ia7qw")
+layer = "structures"
+item_name = &"stair_small_left"
+
+[sub_resource type="Resource" id="Resource_ah5cg"]
+script = ExtResource("3_ia7qw")
+layer = "structures"
+cell = Vector3i(1, 0, 0)
+item_name = &"stair_small_right"
+
+[sub_resource type="Resource" id="Resource_cygvn"]
+script = ExtResource("2_6ahe2")
+rule_id = &"stairs_pair"
+group = 3
+enabled = true
+verified = true
+notes = "Two halves spanning 4m in width and 2m in height, ascending toward -Z. Collision ramp angle: 45 degrees."
+allowed_rotations = PackedInt32Array(0, 1, 2, 3)
+neighbor_height_deltas = PackedInt32Array(999, 999, 999, 999)
+placements = Array[ExtResource("3_ia7qw")]([SubResource("Resource_4bg5p"), SubResource("Resource_ah5cg")])
+occupied_cells = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+entrance_offset = Vector3i(0, -1, 1)
+exit_offset = Vector3i(0, 0, -1)
+height_delta = 1
+
+[resource]
+script = ExtResource("4_0sxd4")
+mesh_library = ExtResource("1_qriw8")
+catalog_version = "3"
+rules = Array[ExtResource("2_6ahe2")]([SubResource("Resource_pmd08"), SubResource("Resource_wlnxr"), SubResource("Resource_w7ver"), SubResource("Resource_fk6qk"), SubResource("Resource_587yb"), SubResource("Resource_k0xuf"), SubResource("Resource_ikvqa"), SubResource("Resource_m6kxn"), SubResource("Resource_ksubl"), SubResource("Resource_cxetf"), SubResource("Resource_577r5"), SubResource("Resource_mqik0"), SubResource("Resource_vf2vy"), SubResource("Resource_xymem"), SubResource("Resource_jr3qs"), SubResource("Resource_aclhx"), SubResource("Resource_hm52v"), SubResource("Resource_nixci"), SubResource("Resource_csu8x"), SubResource("Resource_yqkw1"), SubResource("Resource_jx5eq"), SubResource("Resource_gposs"), SubResource("Resource_oskdj"), SubResource("Resource_gsxrd"), SubResource("Resource_cvj4h"), SubResource("Resource_uqds1"), SubResource("Resource_4bf0l"), SubResource("Resource_iy57x"), SubResource("Resource_hxo0u"), SubResource("Resource_vd6bk"), SubResource("Resource_evnx2"), SubResource("Resource_0dbcr"), SubResource("Resource_lluvf"), SubResource("Resource_poc31"), SubResource("Resource_okued"), SubResource("Resource_rsq8u"), SubResource("Resource_nbtuu"), SubResource("Resource_427i7"), SubResource("Resource_bsde7"), SubResource("Resource_irlq2"), SubResource("Resource_q0cvt"), SubResource("Resource_vq38j"), SubResource("Resource_wvy2t"), SubResource("Resource_7cikw"), SubResource("Resource_wryci"), SubResource("Resource_3w6ro"), SubResource("Resource_b1qs5"), SubResource("Resource_nly57"), SubResource("Resource_fkeh7"), SubResource("Resource_f6lps"), SubResource("Resource_16cqb"), SubResource("Resource_1tab0"), SubResource("Resource_ucfyi"), SubResource("Resource_1y8iq"), SubResource("Resource_s3aa7"), SubResource("Resource_kmdfw"), SubResource("Resource_kfdeo"), SubResource("Resource_epphe"), SubResource("Resource_jtx65"), SubResource("Resource_frp8t"), SubResource("Resource_34013"), SubResource("Resource_x6wos"), SubResource("Resource_0seku"), SubResource("Resource_4v3ua"), SubResource("Resource_q1cja"), SubResource("Resource_rc0ex"), SubResource("Resource_1hpqe"), SubResource("Resource_xwkrd"), SubResource("Resource_nmgtg"), SubResource("Resource_0kk1n"), SubResource("Resource_xcocf"), SubResource("Resource_xcotm"), SubResource("Resource_f7e1j"), SubResource("Resource_wx3su"), SubResource("Resource_ff5ce"), SubResource("Resource_0ry3e"), SubResource("Resource_556jj"), SubResource("Resource_bp56l"), SubResource("Resource_xlceb"), SubResource("Resource_uaypx"), SubResource("Resource_nb6vl"), SubResource("Resource_i6ity"), SubResource("Resource_dhu1w"), SubResource("Resource_fseql"), SubResource("Resource_tgfa6"), SubResource("Resource_83tw2"), SubResource("Resource_6nug8"), SubResource("Resource_kuis5"), SubResource("Resource_rulbh"), SubResource("Resource_ijwao"), SubResource("Resource_isw4k"), SubResource("Resource_t7k7w"), SubResource("Resource_kgbwa"), SubResource("Resource_7erko"), SubResource("Resource_x1ghv"), SubResource("Resource_bj7fr"), SubResource("Resource_5wxe5"), SubResource("Resource_madd8"), SubResource("Resource_cfjm0"), SubResource("Resource_4dqo0"), SubResource("Resource_0ui3l"), SubResource("Resource_2quxt"), SubResource("Resource_odujs"), SubResource("Resource_48hyx"), SubResource("Resource_5o3r6"), SubResource("Resource_xqyer"), SubResource("Resource_b3rpj"), SubResource("Resource_ouhjx"), SubResource("Resource_6qkdf"), SubResource("Resource_spd6u"), SubResource("Resource_qew40"), SubResource("Resource_xyxut"), SubResource("Resource_gy6a3"), SubResource("Resource_im0fl"), SubResource("Resource_r1iv1"), SubResource("Resource_e7e30"), SubResource("Resource_a6yfc"), SubResource("Resource_314e1"), SubResource("Resource_alhsf"), SubResource("Resource_1bxm2"), SubResource("Resource_1qtno"), SubResource("Resource_8obh4"), SubResource("Resource_ef0dj"), SubResource("Resource_yjlxo"), SubResource("Resource_6alct"), SubResource("Resource_pqyok"), SubResource("Resource_xkjld"), SubResource("Resource_5p3xl"), SubResource("Resource_4t5x5"), SubResource("Resource_vhout"), SubResource("Resource_3wpal"), SubResource("Resource_xca2x"), SubResource("Resource_86qom"), SubResource("Resource_ij8gp"), SubResource("Resource_fvbap"), SubResource("Resource_std4n"), SubResource("Resource_0lce1"), SubResource("Resource_wb78h"), SubResource("Resource_djy2x"), SubResource("Resource_35bwa"), SubResource("Resource_yuiol"), SubResource("Resource_87d4r"), SubResource("Resource_p8lrd"), SubResource("Resource_26uqe"), SubResource("Resource_aupkw"), SubResource("Resource_jifjx"), SubResource("Resource_oxw22"), SubResource("Resource_63ln8"), SubResource("Resource_6wsix"), SubResource("Resource_bavrr"), SubResource("Resource_famba"), SubResource("Resource_eik88"), SubResource("Resource_dkeua"), SubResource("Resource_hq28r"), SubResource("Resource_x13lt"), SubResource("Resource_lm4m1"), SubResource("Resource_njvmx"), SubResource("Resource_e6yjr"), SubResource("Resource_akeqk"), SubResource("Resource_878pl"), SubResource("Resource_s3onm"), SubResource("Resource_vwsw2"), SubResource("Resource_ev6qp"), SubResource("Resource_q5gpx"), SubResource("Resource_lqrjn"), SubResource("Resource_y7lrw"), SubResource("Resource_cww3e"), SubResource("Resource_oha2c"), SubResource("Resource_bgvkq"), SubResource("Resource_xs5t8"), SubResource("Resource_gibe8"), SubResource("Resource_alssc"), SubResource("Resource_txgi1"), SubResource("Resource_sf4mb"), SubResource("Resource_6s6cq"), SubResource("Resource_pxqv2"), SubResource("Resource_uhvk7"), SubResource("Resource_fa2bq"), SubResource("Resource_v8att"), SubResource("Resource_f1j13"), SubResource("Resource_0nfo1"), SubResource("Resource_pd7ra"), SubResource("Resource_wfc0a"), SubResource("Resource_igb26"), SubResource("Resource_nbeni"), SubResource("Resource_d77f4"), SubResource("Resource_ys6j5"), SubResource("Resource_mb6l5"), SubResource("Resource_evcae"), SubResource("Resource_u5e5f"), SubResource("Resource_jhd1v"), SubResource("Resource_4t4i4"), SubResource("Resource_nf470"), SubResource("Resource_x0idx"), SubResource("Resource_ebjh8"), SubResource("Resource_lw7r5"), SubResource("Resource_860qe"), SubResource("Resource_c1cfb"), SubResource("Resource_lql2r"), SubResource("Resource_gtj4a"), SubResource("Resource_1r2i6"), SubResource("Resource_2rgae"), SubResource("Resource_qk5sc"), SubResource("Resource_1fii5"), SubResource("Resource_71syk"), SubResource("Resource_vj5ey"), SubResource("Resource_oxvri"), SubResource("Resource_227d6"), SubResource("Resource_8vd1t"), SubResource("Resource_s2xv5"), SubResource("Resource_3oo7t"), SubResource("Resource_cj1ap"), SubResource("Resource_72nw3"), SubResource("Resource_cmhte"), SubResource("Resource_18yqg"), SubResource("Resource_g6mpy"), SubResource("Resource_lomxy"), SubResource("Resource_vo5xt"), SubResource("Resource_anlfo"), SubResource("Resource_6oka3"), SubResource("Resource_b6y5g"), SubResource("Resource_2kyaw"), SubResource("Resource_f0ywp"), SubResource("Resource_gym6h"), SubResource("Resource_pyymm"), SubResource("Resource_16h0k"), SubResource("Resource_ojoji"), SubResource("Resource_xva8x"), SubResource("Resource_4c257"), SubResource("Resource_ahqwe"), SubResource("Resource_5d55w"), SubResource("Resource_wya04"), SubResource("Resource_t8uv4"), SubResource("Resource_n77hj"), SubResource("Resource_c8yu3"), SubResource("Resource_1g1lt"), SubResource("Resource_cadqi"), SubResource("Resource_krvdh"), SubResource("Resource_yaxx1"), SubResource("Resource_5w40o"), SubResource("Resource_nuk4o"), SubResource("Resource_qcg1e"), SubResource("Resource_k5dom"), SubResource("Resource_k1303"), SubResource("Resource_o37gq"), SubResource("Resource_myieb"), SubResource("Resource_77uh7"), SubResource("Resource_1wtcb"), SubResource("Resource_2avxp"), SubResource("Resource_g2cw1"), SubResource("Resource_8y6cg"), SubResource("Resource_loawc"), SubResource("Resource_44c5l"), SubResource("Resource_q2cde"), SubResource("Resource_kgtxc"), SubResource("Resource_0mkjw"), SubResource("Resource_njcji"), SubResource("Resource_76syj"), SubResource("Resource_f4vms"), SubResource("Resource_huldc"), SubResource("Resource_ael1u"), SubResource("Resource_cuxrd"), SubResource("Resource_8fi8q"), SubResource("Resource_vwayw"), SubResource("Resource_tccx5"), SubResource("Resource_1efje"), SubResource("Resource_fyfqf"), SubResource("Resource_lmwsf"), SubResource("Resource_7pgo8"), SubResource("Resource_i8nnw"), SubResource("Resource_dktnh"), SubResource("Resource_37lho"), SubResource("Resource_mwfsi"), SubResource("Resource_qgbm3"), SubResource("Resource_avd7p"), SubResource("Resource_cygvn")])

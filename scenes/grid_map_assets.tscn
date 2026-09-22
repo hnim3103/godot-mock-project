@@ -1,0 +1,100 @@
+[gd_scene format=3 uid="uid://ibn357st2qkk"]
+
+[ext_resource type="PackedScene" uid="uid://dshgumxvbdtf8" path="res://assets/grid_map/forest/floor_ground_0.glb" id="1_caj0t"]
+[ext_resource type="PackedScene" uid="uid://dm3ts2gbi2pki" path="res://assets/grid_map/forest/floor_ground_1.glb" id="2_igip0"]
+[ext_resource type="PackedScene" uid="uid://dhdrlj8x7gv38" path="res://assets/grid_map/forest/floor_ground_2.glb" id="3_b7ytk"]
+[ext_resource type="PackedScene" uid="uid://b4h617303hsni" path="res://assets/grid_map/forest/floor_ground_3.glb" id="4_mir37"]
+[ext_resource type="PackedScene" uid="uid://8e61udfrg385" path="res://assets/grid_map/forest/floor_path_0.glb" id="5_h23ye"]
+[ext_resource type="PackedScene" uid="uid://b020egpfpa86c" path="res://assets/grid_map/forest/floor_path_1.glb" id="6_4mcvj"]
+[ext_resource type="PackedScene" uid="uid://bshrtjvc40qdd" path="res://assets/grid_map/forest/floor_path_2.glb" id="7_cfb8n"]
+[ext_resource type="PackedScene" uid="uid://iu7q4v1nn0v6" path="res://assets/grid_map/forest/floor_path_corner_in.glb" id="8_m2q8r"]
+[ext_resource type="PackedScene" uid="uid://df45b4krhxl72" path="res://assets/grid_map/forest/floor_path_corner_out.glb" id="9_s7hbc"]
+[ext_resource type="PackedScene" uid="uid://dmcdacwutt35c" path="res://assets/grid_map/forest/stair_beside_bottom.glb" id="10_cjy60"]
+[ext_resource type="PackedScene" uid="uid://dy6gnahf3o6w4" path="res://assets/grid_map/forest/stair_beside_medium.glb" id="11_nd72j"]
+[ext_resource type="PackedScene" uid="uid://crvq8t74yidy6" path="res://assets/grid_map/forest/stair_beside_top.glb" id="12_yllvb"]
+[ext_resource type="PackedScene" uid="uid://ddsq3mkj6hqf8" path="res://assets/grid_map/forest/stair_bottom_left.glb" id="13_n10yf"]
+[ext_resource type="PackedScene" uid="uid://bf8j5ag8pnjdv" path="res://assets/grid_map/forest/stair_bottom_right.glb" id="14_b0wc1"]
+[ext_resource type="PackedScene" uid="uid://cegg0yruun3bk" path="res://assets/grid_map/forest/stair_medium_left.glb" id="15_1qc1s"]
+[ext_resource type="PackedScene" uid="uid://d3f0635juxptn" path="res://assets/grid_map/forest/stair_medium_right.glb" id="16_27jec"]
+[ext_resource type="PackedScene" uid="uid://c1r3xcpjqlb7k" path="res://assets/grid_map/forest/stair_small_left.glb" id="17_ihoxs"]
+[ext_resource type="PackedScene" uid="uid://bdpefaiuta8ym" path="res://assets/grid_map/forest/stair_small_right.glb" id="18_qrb24"]
+[ext_resource type="PackedScene" uid="uid://cpkycl6oq3dk0" path="res://assets/grid_map/forest/stair_top_left.glb" id="19_yphm6"]
+[ext_resource type="PackedScene" uid="uid://p6xrfcm76tbo" path="res://assets/grid_map/forest/stair_top_right.glb" id="20_iwbxi"]
+[ext_resource type="PackedScene" uid="uid://ctvpv58kmajqs" path="res://assets/grid_map/forest/wall_bottom.glb" id="21_mjqpc"]
+[ext_resource type="PackedScene" uid="uid://du6sx2ccaocb8" path="res://assets/grid_map/forest/wall_bottom_corner.glb" id="22_t1uwc"]
+[ext_resource type="PackedScene" uid="uid://bukkk1webjdm3" path="res://assets/grid_map/forest/wall_bottom_inner.glb" id="23_bkfh0"]
+[ext_resource type="PackedScene" uid="uid://t6s7ykif3gm8" path="res://assets/grid_map/forest/wall_medium.glb" id="24_4q277"]
+[ext_resource type="PackedScene" uid="uid://cfoig60147olp" path="res://assets/grid_map/forest/wall_medium_corner.glb" id="25_vwdtt"]
+[ext_resource type="PackedScene" uid="uid://famqfqtj8gi" path="res://assets/grid_map/forest/wall_medium_inner.glb" id="26_n2fxu"]
+[ext_resource type="PackedScene" uid="uid://dvg1qfqcisk3k" path="res://assets/grid_map/forest/wall_small.glb" id="27_42v3h"]
+[ext_resource type="PackedScene" uid="uid://dqgt3cmb6d606" path="res://assets/grid_map/forest/wall_small_corner.glb" id="28_4o7lc"]
+[ext_resource type="PackedScene" uid="uid://dqg0qm8lgdtbt" path="res://assets/grid_map/forest/wall_small_inner.glb" id="29_48q4y"]
+[ext_resource type="PackedScene" uid="uid://bjfwnbgkkycv7" path="res://assets/grid_map/forest/wall_top.glb" id="30_iaveb"]
+[ext_resource type="PackedScene" uid="uid://dx4s82y5ilrb8" path="res://assets/grid_map/forest/wall_top_corner.glb" id="31_ta5gi"]
+[ext_resource type="PackedScene" uid="uid://bi5uae621rjye" path="res://assets/grid_map/forest/wall_top_inner.glb" id="32_nyr3g"]
+
+[node name="GridMapAssets" type="Node3D" unique_id=693042648]
+
+[node name="floor_ground_0" parent="." unique_id=1727873947 instance=ExtResource("1_caj0t")]
+
+[node name="floor_ground_1" parent="." unique_id=1868208943 instance=ExtResource("2_igip0")]
+
+[node name="floor_ground_2" parent="." unique_id=990609215 instance=ExtResource("3_b7ytk")]
+
+[node name="floor_ground_3" parent="." unique_id=1869875548 instance=ExtResource("4_mir37")]
+
+[node name="floor_path_0" parent="." unique_id=1181403411 instance=ExtResource("5_h23ye")]
+
+[node name="floor_path_1" parent="." unique_id=797635923 instance=ExtResource("6_4mcvj")]
+
+[node name="floor_path_2" parent="." unique_id=18388833 instance=ExtResource("7_cfb8n")]
+
+[node name="floor_path_corner_in" parent="." unique_id=1596744025 instance=ExtResource("8_m2q8r")]
+
+[node name="floor_path_corner_out" parent="." unique_id=1380373496 instance=ExtResource("9_s7hbc")]
+
+[node name="stair_beside_bottom" parent="." unique_id=910574348 instance=ExtResource("10_cjy60")]
+
+[node name="stair_beside_medium" parent="." unique_id=695285168 instance=ExtResource("11_nd72j")]
+
+[node name="stair_beside_top" parent="." unique_id=452817827 instance=ExtResource("12_yllvb")]
+
+[node name="stair_bottom_left" parent="." unique_id=393159388 instance=ExtResource("13_n10yf")]
+
+[node name="stair_bottom_right" parent="." unique_id=1354752639 instance=ExtResource("14_b0wc1")]
+
+[node name="stair_medium_left" parent="." unique_id=1547961525 instance=ExtResource("15_1qc1s")]
+
+[node name="stair_medium_right" parent="." unique_id=544168637 instance=ExtResource("16_27jec")]
+
+[node name="stair_small_left" parent="." unique_id=2026318566 instance=ExtResource("17_ihoxs")]
+
+[node name="stair_small_right" parent="." unique_id=286539266 instance=ExtResource("18_qrb24")]
+
+[node name="stair_top_left" parent="." unique_id=703775874 instance=ExtResource("19_yphm6")]
+
+[node name="stair_top_right" parent="." unique_id=181061915 instance=ExtResource("20_iwbxi")]
+
+[node name="wall_bottom" parent="." unique_id=882103168 instance=ExtResource("21_mjqpc")]
+
+[node name="wall_bottom_corner" parent="." unique_id=391366251 instance=ExtResource("22_t1uwc")]
+
+[node name="wall_bottom_inner" parent="." unique_id=1448892546 instance=ExtResource("23_bkfh0")]
+
+[node name="wall_medium" parent="." unique_id=1194527403 instance=ExtResource("24_4q277")]
+
+[node name="wall_medium_corner" parent="." unique_id=1563962329 instance=ExtResource("25_vwdtt")]
+
+[node name="wall_medium_inner" parent="." unique_id=1047316961 instance=ExtResource("26_n2fxu")]
+
+[node name="wall_small" parent="." unique_id=144933445 instance=ExtResource("27_42v3h")]
+
+[node name="wall_small_corner" parent="." unique_id=2144337861 instance=ExtResource("28_4o7lc")]
+
+[node name="wall_small_inner" parent="." unique_id=1792447004 instance=ExtResource("29_48q4y")]
+
+[node name="wall_top" parent="." unique_id=1351505246 instance=ExtResource("30_iaveb")]
+
+[node name="wall_top_corner" parent="." unique_id=460459632 instance=ExtResource("31_ta5gi")]
+
+[node name="wall_top_inner" parent="." unique_id=1366468097 instance=ExtResource("32_nyr3g")]

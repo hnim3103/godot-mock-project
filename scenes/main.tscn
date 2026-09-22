@@ -1,0 +1,80 @@
+[gd_scene format=3 uid="uid://cvwri18oh1y53"]
+
+[ext_resource type="PackedScene" uid="uid://bsf7m0c5nr42w" path="res://scenes/maps/forest_12345.tscn" id="1_map"]
+[ext_resource type="Script" uid="uid://edn0v6iwrovd" path="res://scripts/main.gd" id="2_main"]
+[ext_resource type="Script" uid="uid://csjccrhj5wnx7" path="res://addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd" id="3_jyhfs"]
+[ext_resource type="Script" uid="uid://8umksf8e80fw" path="res://addons/phantom_camera/scripts/resources/tween_resource.gd" id="4_tbgi4"]
+[ext_resource type="PackedScene" uid="uid://bj2nu6wb000c3" path="res://scenes/player/player.tscn" id="5_tbgi4"]
+[ext_resource type="Script" uid="uid://bd046eokvcnu2" path="res://addons/phantom_camera/scripts/phantom_camera_host/phantom_camera_host.gd" id="6_tefeu"]
+[ext_resource type="Script" uid="uid://ddgnog2recxdy" path="res://scripts/enemy_spawner.gd" id="7_o6xl0"]
+[ext_resource type="PackedScene" uid="uid://tn6m6n5333sh" path="res://scenes/enemy/aquaman.tscn" id="8_enemy"]
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_o6xl0"]
+vertices = PackedVector3Array(0.6, 2.5, 18.849998, 9.35, 2.5, 19.099998, 9.6, 2.5, 17.349998, 0.6, 2.5, 0.5999985, 20.35, 2.5, 17.349998, 20.6, 2.5, 19.099998, 29.35, 2.5, 18.849998, 29.35, 2.5, 9.599998, 31.1, 2.5, 9.349998, 30.85, 2.5, 0.5999985, 35.35, 2.5, 9.349998, 35.35, 2.5, 8.349998, 35.85, 3, 8.349998, 35.85, 2.5, 0.5999985, 35.85, 2.5, 7.0583315, 36.35, 3, 8.349998, 36.35, 4.25, 9.349998, 39.6, 4, 9.349998, 39.6, 3, 8.349998, 40.1, 2.5, 0.5999985, 36.266666, 2.5, 7.0583315, 39.68333, 2.5, 7.0583315, 40.1, 3, 8.349998, 51.6, 2.5, 31.349998, 53.35, 2.5, 31.349998, 53.35, 2.5, 30.349998, 42.6, 2.5, 24.349998, 58.6, 2.5, 30.349998, 58.6, 2.5, 31.349998, 60.35, 2.5, 31.349998, 40.6, 2.5, 8.349998, 40.6, 2.5, 9.349998, 42.6, 2.5, 9.599998, 54.35, 3, 30.349998, 54.35, 3.75, 31.099998, 57.6, 3.75, 31.099998, 57.6, 3, 30.349998, 56.236362, 2.5, 29.804544, 53.04444, 2.5, 29.683332, 60.6, 2.5, 33.1, 63.35, 2.5, 32.85, 63.35, 2.5, 0.5999985, 42.1, 2.5, 24.599998, 51.35, 2.5, 31.849998, 36.1, 4.5, 10.349998, 41.6, 4.5, 23.599998, 39.85, 4.5, 10.349998, 30.35, 4.5, 10.349998, 30.35, 4.5, 23.599998, 41.6, 4.5, 10.349998, 12.35, 3.75, 32.85, 15.6, 3.75, 32.85, 15.85, 4.5, 31.599998, 14.683334, 4.5, 32.016666, 12.1, 4.5, 31.599998, 19.6, 4.5, 18.349998, 10.35, 4.5, 18.349998, 10.35, 4.5, 31.599998, 19.6, 4.5, 31.599998, 0.6, 2.5, 31.099998, 9.35, 2.5, 30.849998, 20.6, 2.5, 23.099998, 29.35, 2.5, 22.849998, 29.6, 2.5, 24.599998, 20.6, 2.5, 32.35, 18.85, 2.5, 32.6, 19.1, 2.5, 63.35, 52.85, 2.5, 63.35, 53.1, 2.5, 44.6, 51.35, 2.5, 44.35, 11.35, 2.5, 33.6, 11.35, 2.5, 32.6, 9.6, 2.5, 32.6, 16.6, 2.5, 32.6, 16.6, 2.5, 33.6, 15.6, 3, 33.6, 12.35, 3, 33.6, 0.6, 2.5, 63.35, 14.575001, 2.5, 35.574997, 54.1, 4.5, 32.35, 52.35, 4.5, 43.6, 59.6, 4.5, 43.6, 57.85, 4.5, 32.35, 59.6, 4.5, 32.35, 52.35, 4.5, 32.35, 60.6, 2.5, 42.85, 63.35, 2.5, 43.1, 60.35, 2.5, 44.6, 63.35, 2.5, 63.35)
+polygons = [PackedInt32Array(1, 0, 2), PackedInt32Array(2, 0, 3), PackedInt32Array(5, 4, 6), PackedInt32Array(6, 4, 7), PackedInt32Array(9, 8, 7), PackedInt32Array(7, 4, 9), PackedInt32Array(9, 4, 2), PackedInt32Array(9, 2, 3), PackedInt32Array(11, 10, 8), PackedInt32Array(12, 11, 14), PackedInt32Array(14, 11, 13), PackedInt32Array(13, 11, 9), PackedInt32Array(9, 11, 8), PackedInt32Array(18, 17, 15), PackedInt32Array(15, 17, 16), PackedInt32Array(15, 20, 18), PackedInt32Array(18, 20, 21), PackedInt32Array(21, 20, 13), PackedInt32Array(21, 13, 19), PackedInt32Array(18, 21, 22), PackedInt32Array(22, 21, 19), PackedInt32Array(15, 12, 20), PackedInt32Array(20, 12, 14), PackedInt32Array(20, 14, 13), PackedInt32Array(24, 23, 25), PackedInt32Array(25, 23, 26), PackedInt32Array(29, 28, 27), PackedInt32Array(32, 31, 30), PackedInt32Array(36, 35, 33), PackedInt32Array(33, 35, 34), PackedInt32Array(36, 33, 37), PackedInt32Array(37, 33, 38), PackedInt32Array(37, 38, 26), PackedInt32Array(40, 39, 29), PackedInt32Array(29, 27, 40), PackedInt32Array(40, 27, 32), PackedInt32Array(40, 32, 19), PackedInt32Array(40, 19, 41), PackedInt32Array(30, 22, 19), PackedInt32Array(32, 30, 19), PackedInt32Array(23, 43, 26), PackedInt32Array(26, 43, 42), PackedInt32Array(36, 37, 27), PackedInt32Array(27, 37, 26), PackedInt32Array(27, 26, 32), PackedInt32Array(33, 25, 38), PackedInt32Array(38, 25, 26), PackedInt32Array(17, 46, 16), PackedInt32Array(16, 46, 44), PackedInt32Array(44, 46, 45), PackedInt32Array(47, 44, 48), PackedInt32Array(48, 44, 45), PackedInt32Array(46, 49, 45), PackedInt32Array(52, 51, 53), PackedInt32Array(53, 51, 50), PackedInt32Array(50, 54, 53), PackedInt32Array(53, 54, 52), PackedInt32Array(52, 54, 56), PackedInt32Array(52, 56, 55), PackedInt32Array(54, 57, 56), PackedInt32Array(55, 58, 52), PackedInt32Array(60, 59, 1), PackedInt32Array(1, 59, 0), PackedInt32Array(6, 62, 5), PackedInt32Array(5, 62, 61), PackedInt32Array(62, 63, 61), PackedInt32Array(61, 63, 64), PackedInt32Array(66, 65, 64), PackedInt32Array(69, 68, 67), PackedInt32Array(42, 43, 69), PackedInt32Array(63, 42, 64), PackedInt32Array(64, 42, 69), PackedInt32Array(64, 69, 67), PackedInt32Array(64, 67, 66), PackedInt32Array(72, 71, 70), PackedInt32Array(73, 65, 74), PackedInt32Array(74, 65, 66), PackedInt32Array(76, 50, 75), PackedInt32Array(75, 50, 51), PackedInt32Array(70, 76, 66), PackedInt32Array(59, 60, 72), PackedInt32Array(72, 70, 59), PackedInt32Array(59, 70, 77), PackedInt32Array(77, 70, 66), PackedInt32Array(75, 78, 76), PackedInt32Array(76, 78, 66), PackedInt32Array(66, 78, 75), PackedInt32Array(75, 74, 66), PackedInt32Array(35, 82, 34), PackedInt32Array(34, 82, 79), PackedInt32Array(79, 82, 81), PackedInt32Array(79, 81, 80), PackedInt32Array(82, 83, 81), PackedInt32Array(80, 84, 79), PackedInt32Array(39, 40, 85), PackedInt32Array(85, 40, 86), PackedInt32Array(85, 86, 87), PackedInt32Array(87, 86, 88), PackedInt32Array(68, 87, 67), PackedInt32Array(67, 87, 88)]
+agent_height = 1.3
+agent_radius = 0.28
+agent_max_climb = 0.5
+
+[sub_resource type="Resource" id="Resource_tefeu"]
+script = ExtResource("4_tbgi4")
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_mavfg"]
+sky_top_color = Color(0, 0.5254902, 0.44313726, 1)
+
+[sub_resource type="Sky" id="Sky_3vg34"]
+sky_material = SubResource("ProceduralSkyMaterial_mavfg")
+
+[sub_resource type="Environment" id="Environment_ackv6"]
+background_mode = 2
+sky = SubResource("Sky_3vg34")
+
+[node name="Main" type="Node3D" unique_id=2055433020 node_paths=PackedStringArray("map_root")]
+script = ExtResource("2_main")
+map_root = NodePath("NavigationRegion3D/Map")
+
+[node name="NavigationRegion3D" type="NavigationRegion3D" parent="." unique_id=950773673]
+navigation_mesh = SubResource("NavigationMesh_o6xl0")
+
+[node name="Map" parent="NavigationRegion3D" unique_id=2049376546 instance=ExtResource("1_map")]
+
+[node name="PhantomCamera3D" type="Node3D" parent="." unique_id=51568940 node_paths=PackedStringArray("follow_target")]
+transform = Transform3D(1, 0, 0, 0, 0.7071047, 0.7071048, 0, -0.7071047, 0.7071048, 0, 5.7071047, 5.7071047)
+top_level = true
+script = ExtResource("3_jyhfs")
+follow_mode = 5
+follow_target = NodePath("../Player")
+tween_resource = SubResource("Resource_tefeu")
+follow_offset = Vector3(0, 5, 5)
+align_transform_with_view = Callable()
+align_position_with_view = Callable()
+metadata/_custom_type_script = "uid://csjccrhj5wnx7"
+
+[node name="Player" parent="." unique_id=1559386984 instance=ExtResource("5_tbgi4")]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1439955898]
+physics_interpolation_mode = 1
+transform = Transform3D(1, 0, 0, 0, 0.7071047, 0.7071048, 0, -0.7071047, 0.7071048, 0, 5.7071047, 5.7071047)
+top_level = true
+
+[node name="PhantomCameraHost" type="Node" parent="Camera3D" unique_id=1611278118]
+process_priority = 300
+process_physics_priority = 300
+script = ExtResource("6_tefeu")
+metadata/_custom_type_script = "uid://bd046eokvcnu2"
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=491613687]
+transform = Transform3D(-0.64278764, -0.5416752, 0.5416752, 0, 0.70710677, 0.70710677, -0.76604444, 0.45451948, -0.45451948, 0, 10, 0)
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=2036088205]
+environment = SubResource("Environment_ackv6")
+
+[node name="Enemies" type="Node3D" parent="." unique_id=27846316]
+
+[node name="EnemySpawner" type="Node" parent="." unique_id=1309546520 node_paths=PackedStringArray("map_root", "navigation_region", "enemy_container")]
+script = ExtResource("7_o6xl0")
+map_root = NodePath("../NavigationRegion3D/Map")
+navigation_region = NodePath("../NavigationRegion3D")
+enemy_container = NodePath("../Enemies")
+enemy_scene = ExtResource("8_enemy")

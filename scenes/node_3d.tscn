@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://jld5yu5swiqb"]
+
+[ext_resource type="PackedScene" uid="uid://dshgumxvbdtf8" path="res://assets/grid_map/forest/floor_ground_0.glb" id="1_ns6u7"]
+[ext_resource type="Script" uid="uid://bbold3lxaw2s1" path="res://scripts/testscript.gd" id="2_5t4e2"]
+
+[node name="Node3D" type="Node3D" unique_id=905496865]
+
+[node name="floor_ground_02" parent="." unique_id=1727873947 instance=ExtResource("1_ns6u7")]
+script = ExtResource("2_5t4e2")

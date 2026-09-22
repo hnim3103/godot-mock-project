@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="MapConfig" format=3 uid="uid://30ol6bkcptla"]
+
+[ext_resource type="Script" uid="uid://bttyu0yhd8mr0" path="res://scripts/procedural/map_config.gd" id="1_config"]
+
+[resource]
+script = ExtResource("1_config")
+generator_version = "2"
+enemy_spawn_count = 6
+item_spawn_count = 4
+enable_elevation = true
+require_collision = true

@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://crycmkhlrlbpu"]
+
+[ext_resource type="MeshLibrary" uid="uid://7fqs52c7i6ef" path="res://assets/grid_map/forest_procedural_library.tres" id="1_library"]
+[ext_resource type="Script" uid="uid://breyygquhw8bm" path="res://scenes/map_generator.gd" id="2_generator"]
+[ext_resource type="Resource" uid="uid://30ol6bkcptla" path="res://resources/procedural/forest_map_config.tres" id="3_config"]
+[ext_resource type="Resource" uid="uid://b0j27425gyh7c" path="res://resources/procedural/forest_tile_catalog.tres" id="4_catalog"]
+
+[node name="ProceduralMap" type="Node3D" unique_id=513049938]
+
+[node name="MapGenerator" type="Node3D" parent="." unique_id=1958773655 node_paths=PackedStringArray("ground_grid", "structure_grid", "spawn_markers", "generated_objects")]
+script = ExtResource("2_generator")
+config = ExtResource("3_config")
+catalog = ExtResource("4_catalog")
+ground_grid = NodePath("GroundGrid")
+structure_grid = NodePath("StructureGrid")
+spawn_markers = NodePath("SpawnMarkers")
+generated_objects = NodePath("GeneratedObjects")
+
+[node name="GroundGrid" type="GridMap" parent="MapGenerator" unique_id=681945181]
+mesh_library = ExtResource("1_library")
+
+[node name="StructureGrid" type="GridMap" parent="MapGenerator" unique_id=1407527185]
+mesh_library = ExtResource("1_library")
+
+[node name="SpawnMarkers" type="Node3D" parent="MapGenerator" unique_id=430712810]
+
+[node name="GeneratedObjects" type="Node3D" parent="MapGenerator" unique_id=876909271]
